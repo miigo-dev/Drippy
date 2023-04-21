@@ -12,7 +12,7 @@
         android:id="@+id/textViewSignup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sign Up"
+        android:text="@string/txtSignup"
         android:textColor="#004AAD"
         android:textSize="34sp"
         android:textStyle="bold"
