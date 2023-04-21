@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Drippy</string>
     <string name="txtSignup">Sign Up</string>
+    <string name="textViewWelcome">Welcome to Drip-E!</string>
 </resources>
