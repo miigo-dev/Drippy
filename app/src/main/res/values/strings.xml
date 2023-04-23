@@ -1,5 +1,5 @@
 <resources>
-    \\ Sign-up Texts
+    \\ Sign-up
     <string name="app_name">Drippy</string>
     <string name="txtSignup">Sign Up</string>
     <string name="txtWelcome">Welcome to Drippy!</string>
@@ -14,4 +14,8 @@
     <string name="hintEmail">user@email.com</string>
     <string name="hintPass">Password</string>
     <string name="hintConfirmPass">Confirm Password</string>
+
+    // Login
+    <string name="txtLogin">Login</string>
+    <string name="txtRemember">Remember Me</string>
 </resources>
