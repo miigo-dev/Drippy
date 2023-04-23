@@ -7,6 +7,50 @@
     android:background="#FBFBFB"
     tools:context=".Login">
 
+    <EditText
+        android:id="@+id/textPassword2"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="@string/hintPass"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.386" />
+
+    <TextView
+        android:id="@+id/textViewRememberMe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtRemember"
+        android:textAlignment="viewEnd"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.267"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.463" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.151"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.465" />
+
     <Button
         android:id="@+id/btnContinue2"
         android:layout_width="300dp"
@@ -20,7 +64,20 @@
         app:layout_constraintHorizontal_bias="0.513"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.549" />
+        app:layout_constraintVertical_bias="0.542" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/show"
+        android:backgroundTint="#A6A6A6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.818"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.379" />
 
     <TextView
         android:id="@+id/textViewPassword"
@@ -35,35 +92,7 @@
         app:layout_constraintHorizontal_bias="0.167"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.348" />
-
-    <Button
-        android:id="@+id/button6"
-        android:layout_width="48dp"
-        android:layout_height="48dp"
-        android:background="@drawable/show"
-        android:backgroundTint="#A6A6A6"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.818"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.387" />
-
-    <EditText
-        android:id="@+id/textPassword2"
-        android:layout_width="300dp"
-        android:layout_height="48dp"
-        android:ems="10"
-        android:hint="@string/hintPass"
-        android:inputType="textPassword"
-        android:textColor="#000000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.393" />
+        app:layout_constraintVertical_bias="0.341" />
 
     <TextView
         android:id="@+id/textViewUsername"
@@ -125,34 +154,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.143" />
-
-    <CheckBox
-        android:id="@+id/checkBox2"
-        android:layout_width="48dp"
-        android:layout_height="48dp"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.151"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.472" />
-
-    <TextView
-        android:id="@+id/textViewRememberMe"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/txtRemember"
-        android:textAlignment="viewEnd"
-        android:textAllCaps="false"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textColor="@color/design_default_color_on_secondary"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.267"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.471" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
