@@ -11,4 +11,8 @@ public class homepage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_homepage);
     }
+
+    public void onBackPressed() {
+        moveTaskToBack(true);
+    }
 }
