@@ -5,4 +5,7 @@
 
     <color name="start_color">#0048A8</color>
     <color name="end_color">#3C6037</color>
+
+    <color name="style1">#004AAD</color>
+    <color name="style2">#CB6CE6</color>
 </resources>
