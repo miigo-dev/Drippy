@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".AddProduct">
+
+    <ImageButton
+        android:id="@+id/back1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="24dp"
+        android:background="@color/white"
+        app:srcCompat="@drawable/back" />
+
+    <TextView
+        android:id="@+id/addProductTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="207dp"
+        android:text="Add Product"
+        android:textColor="@color/black"
+        android:textSize="23dp" />
+
+    <ImageButton
+        android:id="@+id/uploadBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="68dp"
+        android:background="@color/white"
+        app:srcCompat="@drawable/upload" />
+
+    <TextView
+        android:id="@+id/addPhotoTxt"
+        android:layout_width="57dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/uploadBtn"
+        android:layout_alignTop="@+id/uploadBtn"
+        android:layout_alignEnd="@+id/uploadBtn"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="7dp"
+        android:text="Add Photo"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/productNameTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/inputName"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="66dp"
+        android:text="Product Name"
+        android:textColor="@color/black"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/productDescriptionTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inputName"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="11dp"
+        android:text="Product Description"
+        android:textColor="@color/black"
+        android:textSize="10dp" />
+
+    <ImageView
+        android:id="@+id/inputName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="209dp"
+        android:layout_marginEnd="13dp"
+
+        app:srcCompat="@drawable/rectangle" />
+
+    <EditText
+        android:id="@+id/productNameInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/inputName"
+        android:layout_alignTop="@+id/inputName"
+        android:layout_alignEnd="@+id/inputName"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="170dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Product Name"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:textSize="9dp" />
+
+    <ImageView
+        android:id="@+id/inputDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/productDescriptionTxt"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="12dp"
+        app:srcCompat="@drawable/rectangle2" />
+
+    <EditText
+        android:id="@+id/productDescriptionInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/inputDescription"
+        android:layout_alignTop="@+id/inputDescription"
+        android:layout_alignEnd="@+id/inputDescription"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="167dp"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:inputType="textPersonName"
+        android:hint="Enter Product Description"
+        android:textColorHint="@color/black"
+        android:textSize="9dp" />
+
+    <EditText
+        android:id="@+id/priceInput"
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/categoryBtn"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="26dp"
+        android:layout_toEndOf="@+id/imageView4"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Price"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="10dp" />
+
+    <EditText
+        android:id="@+id/stackInput"
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/priceInput"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="24dp"
+        android:layout_toEndOf="@+id/imageView5"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Stack"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="10dp" />
+
+    <ImageButton
+        android:id="@+id/saveBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="191dp"
+        android:layout_marginBottom="21dp"
+        android:background="@color/white"
+        app:srcCompat="@drawable/save" />
+
+    <ImageButton
+        android:id="@+id/categoryBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inputDescription"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="33dp"
+        android:background="@color/white"
+        app:srcCompat="@drawable/varation" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/categoryBtn"
+        android:layout_alignTop="@+id/categoryBtn"
+        android:layout_alignBottom="@+id/categoryBtn"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="7dp"
+        android:text="Category/Variation"
+        android:textColor="@color/black"
+        android:textSize="10dp" />
+
+    <ImageButton
+        android:id="@+id/shippingFeeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stackInput"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="19dp"
+        android:background="@color/white"
+        app:srcCompat="@drawable/shippingfee" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/shippingFeeBtn"
+        android:layout_alignTop="@+id/shippingFeeBtn"
+        android:layout_alignBottom="@+id/shippingFeeBtn"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="5dp"
+        android:text="Shipping"
+        android:textColor="@color/black"
+        android:textSize="10dp" />
+
+    <ImageButton
+        android:id="@+id/conditionBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shippingFeeBtn"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        app:srcCompat="@drawable/condition" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/conditionBtn"
+        android:layout_alignTop="@+id/conditionBtn"
+        android:layout_alignBottom="@+id/conditionBtn"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="7dp"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:layout_marginBottom="4dp"
+        android:text="Condition" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/categoryBtn"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@drawable/price" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView4"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="18dp"
+        app:srcCompat="@drawable/stacks" />
+
+</RelativeLayout>

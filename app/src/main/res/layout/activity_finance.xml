@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Finance">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/financeTxt"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="165dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/financeTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="155dp"
+        android:text="My Finance"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/back2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="35dp"
+        android:background="@color/white"
+        app:srcCompat="@drawable/back" />
+
+    <ImageButton
+        android:id="@+id/bpiBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/gCashBtn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="17dp"
+        android:background="@color/white"
+        app:srcCompat="@drawable/bpi" />
+
+    <ImageButton
+        android:id="@+id/gCashBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="117dp"
+        android:background="@color/white"
+        app:srcCompat="@drawable/gcash" />
+
+    <TextView
+        android:id="@+id/Balance"
+        android:layout_width="118dp"
+        android:layout_height="41dp"
+        android:layout_alignTop="@+id/bpiBtn"
+        android:layout_alignEnd="@+id/bpiBtn"
+        android:layout_alignBottom="@+id/bpiBtn"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="17dp"
+        android:text="₱20.00"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/Balance2"
+        android:layout_width="118dp"
+        android:layout_height="41dp"
+        android:layout_alignTop="@+id/gCashBtn"
+        android:layout_alignEnd="@+id/bpiBtn"
+        android:layout_alignBottom="@+id/gCashBtn"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="17dp"
+        android:text="₱20.00"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/transactionView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="192dp"
+        android:layout_marginEnd="34dp"
+        app:srcCompat="@drawable/transaction" />
+
+    <TextView
+        android:id="@+id/transactionTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/transactionView"
+        android:layout_alignEnd="@+id/transactionView"
+        android:layout_alignBottom="@+id/transactionView"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="8dp"
+        android:text="Transaction"
+        android:textColor="@color/black"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/withdrawalTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/withdrawalView"
+        android:layout_alignEnd="@+id/withdrawalView"
+        android:layout_alignBottom="@+id/withdrawalView"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="8dp"
+        android:text="Withdrawal"
+        android:textColor="@color/black"
+        android:textSize="19sp" />
+
+    <ImageView
+        android:id="@+id/withdrawalView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="192dp"
+        android:layout_marginEnd="23dp"
+        app:srcCompat="@drawable/withdrawal" />
+
+    <TextView
+        android:id="@+id/balanceTxt"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="131dp"
+        android:text="Balance"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/balanceRemainingTxt"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/balanceTxt"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="125dp"
+        android:text="0.00"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="13dp"
+        app:srcCompat="@drawable/line" />
+</RelativeLayout>
