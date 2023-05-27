@@ -8,9 +8,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+public class Signup extends AppCompatActivity {
 
     TextView tvClickableText;
+
     Button btnClickable;
 
     @Override
@@ -22,16 +23,16 @@ public class MainActivity extends AppCompatActivity {
         tvClickableText.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, Login.class);
+                Intent intent = new Intent(Signup.this, Signin.class);
                 startActivity(intent);
             }
         });
 
-        btnClickable = findViewById(R.id.btnContinue);
+        btnClickable = findViewById(R.id.btnCreate);
         btnClickable.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, Login.class);
+                Intent intent = new Intent(Signup.this, Signin.class);
                 startActivity(intent);
             }
         });

@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Login extends AppCompatActivity {
+public class Signin extends AppCompatActivity {
 
     Button btnClickable;
     @Override
@@ -19,7 +19,7 @@ public class Login extends AppCompatActivity {
         btnClickable.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Login.this, Wardrobe.class);
+                Intent intent = new Intent(Signin.this, Wardrobe.class);
                 startActivity(intent);
 
 

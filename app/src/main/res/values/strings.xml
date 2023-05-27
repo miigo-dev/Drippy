@@ -3,8 +3,8 @@
     <string name="app_name">Drippy</string>
     <string name="txtSignup">Sign Up</string>
     <string name="txtWelcome">Welcome to Drippy!</string>
-    <string name="txtSignIn">Already have an account? <b><font color="#004AAD">Sign in</font></b></string>
-    <string name="txtTerms">I agree to the <b><font color="#004AAD">Terms of Service</font></b> and <b><font color="#004AAD">Privacy Policy</font></b></string>
+    <string name="txtSignIn">Create an Account</string>
+    <string name="txtTerms">I agree to the <b><font color="#004AAD">Terms of Service</font></b> and <b><font color="#004AAD">Privacy Policy</font></b>.</string>
     <string name="txtUsername"><b><font color="#004AAD">Username</font></b></string>
     <string name="txtEmail"><b><font color="#004AAD"></font></b>Email</string>
     <string name="txtPass"><b><font color="#004AAD">Password</font></b></string>
