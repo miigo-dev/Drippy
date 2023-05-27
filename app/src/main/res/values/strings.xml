@@ -25,5 +25,9 @@
     <string name="introduction">Here\'s your added outfit of the day!!</string>
     <string name="recently_added">Recently added</string>
     <string name="view_all">View All</string>
-
+    
+    //Homepage
+    <string name="Find_your_style">Find Your Best Style</string>
+    <string name="description">Discover your best style and find the perfect outfit in seconds with our outfit recommendation system!</string>
+    <string name="started">Get Started</string>
 </resources>
