@@ -19,11 +19,11 @@ public class Signup extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
 
-        tvClickableText = findViewById(R.id.textViewSignIn);
+        tvClickableText = findViewById(R.id.txtViewSignIn);
         tvClickableText.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Signup.this, Signin.class);
+                Intent intent = new Intent(Signup.this, Login.class);
                 startActivity(intent);
             }
         });
@@ -32,7 +32,7 @@ public class Signup extends AppCompatActivity {
         btnClickable.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Signup.this, Signin.class);
+                Intent intent = new Intent(Signup.this, Login.class);
                 startActivity(intent);
             }
         });
