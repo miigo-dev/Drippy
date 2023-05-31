@@ -50,9 +50,9 @@ public class Outfit_Planning extends AppCompatActivity {
         tabLayout = findViewById(R.id.tablayout);
         viewPager2 = findViewById(R.id.viewpager);
 
-        tabLayout.addTab(tabLayout.newTab().setText("Clothes"));
-        tabLayout.addTab(tabLayout.newTab().setText("Outfits"));
-        tabLayout.addTab(tabLayout.newTab().setText("Calendar"));
+        tabLayout.addTab(tabLayout.newTab().setText(""));
+        tabLayout.addTab(tabLayout.newTab().setText(""));
+        tabLayout.addTab(tabLayout.newTab().setText(""));
 
         FragmentManager fragmentManager = getSupportFragmentManager();
         adapter = new ViewPageAdapter(fragmentManager, getLifecycle());
