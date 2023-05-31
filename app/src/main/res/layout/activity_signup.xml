@@ -141,7 +141,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextText"
+        android:id="@+id/signUpUser"
         android:layout_width="210dp"
         android:layout_height="48dp"
         android:layout_marginStart="120dp"
@@ -157,7 +157,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextText2"
+        android:id="@+id/signUpEmail"
         android:layout_width="210dp"
         android:layout_height="48dp"
         android:layout_marginStart="120dp"
@@ -173,7 +173,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/signUpPassword"
         android:layout_width="210dp"
         android:layout_height="48dp"
         android:layout_marginStart="120dp"
