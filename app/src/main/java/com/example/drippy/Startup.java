@@ -1,7 +1,6 @@
 package com.example.drippy;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.view.WindowCompat;
 
 import android.animation.Animator;
 import android.content.Intent;
@@ -11,6 +10,7 @@ import android.view.View;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.ImageView;
 
+
 public class Startup extends AppCompatActivity {
 
     private static final int ANIMATION_DURATION = 2000;
@@ -19,6 +19,8 @@ public class Startup extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_startup);
+
+        // Fade-in Logo Animation
         ImageView logoImageView = findViewById(R.id.imageView3);
 
         // Set initial transparency to 0
