@@ -76,17 +76,6 @@
         android:background="@color/white"
         app:srcCompat="@drawable/back" />
 
-    <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="35dp"
-        android:layout_marginEnd="17dp"
-        android:background="@color/white"
-        app:srcCompat="@drawable/menu" />
-
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="wrap_content"
@@ -102,18 +91,18 @@
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="wrap_content"
+        android:layout_width="86dp"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/imageView2"
         android:layout_alignTop="@+id/imageView2"
         android:layout_alignEnd="@+id/imageView2"
-        android:layout_marginStart="165dp"
+        android:layout_marginStart="145dp"
         android:layout_marginTop="20dp"
-        android:layout_marginEnd="165dp"
-        android:textColor="@color/black"
+        android:layout_marginEnd="145dp"
+        android:text="5.0"
         android:textAlignment="center"
-        android:textSize="30sp"
-        android:text="5.0" />
+        android:textColor="@color/black"
+        android:textSize="30sp" />
 
     <ImageView
         android:id="@+id/imageView3"
