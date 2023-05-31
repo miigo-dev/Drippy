@@ -34,7 +34,7 @@
             android:name=".Add_Product"
             android:exported="false" />
         <activity
-            android:name=".Startup"
+            android:name=".Signup"
             android:exported="false" />
         <activity
             android:name=".Outfit_Planning"
@@ -46,13 +46,13 @@
             android:name=".Wardrobe"
             android:exported="false" />
         <activity
-            android:name=".homepage"
+            android:name=".Homepage"
             android:exported="false" />
         <activity
-            android:name=".Signin"
+            android:name=".Login"
             android:exported="false" />
         <activity
-            android:name=".Signup"
+            android:name=".Startup"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
