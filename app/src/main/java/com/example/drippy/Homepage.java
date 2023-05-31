@@ -9,24 +9,18 @@ import android.widget.ImageButton;
 
 public class Homepage extends AppCompatActivity {
 
-    Button btnGetStarted;
-
-    private ImageButton ibSelling;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_homepage);
 
-        btnGetStarted = findViewById(R.id.btnGetStarted);
-
-        ImageButton ibSelling = findViewById(R.id.ibSelling);
-
+        Button btnGetStarted = findViewById(R.id.btnGetStarted);
         btnGetStarted.setOnClickListener(view -> {
             Intent intent = new Intent(Homepage.this, Wardrobe.class);
             startActivity(intent);
         });
 
+        ImageButton ibSelling = findViewById(R.id.ibSelling);
         ibSelling.setOnClickListener(view -> {
             Intent intent = new Intent(Homepage.this, Sell.class);
             startActivity(intent);
