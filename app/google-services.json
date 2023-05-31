@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "566328504845",
+    "project_id": "drippy-16d7d",
+    "storage_bucket": "drippy-16d7d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:566328504845:android:6b39e33abb7d853c501b44",
+        "android_client_info": {
+          "package_name": "com.example.drippy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBskzGaPirvPEbzX_REl9SoxDniqaL20QQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
