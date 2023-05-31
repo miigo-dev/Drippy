@@ -1,6 +1,7 @@
 package com.example.drippy;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.view.WindowCompat;
 
 import android.animation.Animator;
 import android.content.Intent;
@@ -18,7 +19,6 @@ public class Startup extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_startup);
-
         ImageView logoImageView = findViewById(R.id.imageView3);
 
         // Set initial transparency to 0
