@@ -7,6 +7,7 @@
     android:background="@color/white"
     tools:context=".Outfit_Planning">
 
+
     <TextView
         android:id="@+id/textView18"
         android:layout_width="214dp"
@@ -67,27 +68,27 @@
         app:srcCompat="@drawable/rectanglebg" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="400dp"
+        android:layout_width="match_parent"
         android:layout_height="600dp"
         android:layout_marginBottom="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHeight_percent=".78"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.658">
+        app:layout_constraintVertical_bias="0.534">
 
         <androidx.viewpager2.widget.ViewPager2
             android:id="@+id/viewpager"
-            android:layout_width="402dp"
-            android:layout_height="424dp"
+            android:layout_width="428dp"
+            android:layout_height="421dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHeight_percent=".78"
-            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.613" />
+            app:layout_constraintVertical_bias="0.603" />
 
         <com.google.android.material.tabs.TabLayout
             android:id="@+id/tablayout"
@@ -98,20 +99,19 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintVertical_bias="0.012"
             tools:ignore="SpeakableTextPresentCheck" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <ImageButton
-        android:id="@+id/home_button"
+        android:id="@+id/btnHome"
         android:layout_width="43dp"
         android:layout_height="46dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:background="@color/white"
-        android:contentDescription="homeicon"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -120,28 +120,25 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.963"
         app:srcCompat="@drawable/homeicons"
-        tools:ignore="TouchTargetSizeCheck" />
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <ImageButton
-        android:id="@+id/wardrobe"
+        android:id="@+id/btnWardrobe"
         android:layout_width="43dp"
         android:layout_height="46dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="228dp"
-        android:autofillHints="asd"
         android:background="@color/white"
-        android:contentDescription="wardrobe"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.963"
         app:srcCompat="@drawable/wardrobeicons"
-        tools:ignore="TouchTargetSizeCheck" />
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <ImageButton
         android:id="@+id/btnPlanning"

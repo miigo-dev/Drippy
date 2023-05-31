@@ -7,168 +7,52 @@
     tools:context=".Op_OutfitsFragment">
 
 
-    <ImageButton
-        android:id="@+id/imageButton16"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="?attr/selectableItemBackground"
-        android:contentDescription="imgbtn"
-        android:src="@drawable/rectangleoutfits"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.925"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.746" />
+        <ImageButton
+            android:id="@+id/imageButton32"
+            android:layout_width="191dp"
+            android:layout_height="182dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="15dp"
+            android:background="?attr/selectableItemBackground"
+            android:scaleType="fitCenter"
+            android:src="@drawable/rectangleclothes" />
 
-    <ImageView
-        android:id="@+id/imageView26"
-        android:layout_width="167dp"
-        android:layout_height="58dp"
-        android:src="@drawable/outfittitle"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.918"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.786" />
+        <ImageButton
+            android:id="@+id/imageButton27"
+            android:layout_width="191dp"
+            android:layout_height="182dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="0dp"
+            android:background="?attr/selectableItemBackground"
+            android:scaleType="fitCenter"
+            android:src="@drawable/rectangleclothes" />
 
-    <ImageButton
-        android:id="@+id/imageButton3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="?attr/selectableItemBackground"
-        android:contentDescription="imgbtn"
-        android:src="@drawable/rectangleoutfits"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.066"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.44" />
+        <ImageButton
+            android:id="@+id/imageButton35"
+            android:layout_width="191dp"
+            android:layout_height="182dp"
+            android:layout_below="@+id/imageButton32"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="29dp"
+            android:layout_marginEnd="14dp"
+            android:background="?attr/selectableItemBackground"
+            android:scaleType="fitCenter"
+            android:src="@drawable/rectangleclothes" />
 
-    <ImageView
-        android:id="@+id/imageView23"
-        android:layout_width="167dp"
-        android:layout_height="58dp"
-        android:src="@drawable/outfittitle"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.065"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.521" />
-
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="?attr/selectableItemBackground"
-        android:contentDescription="imgbtn"
-        android:src="@drawable/rectangleoutfits"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.066"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.123" />
-
-    <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="?attr/selectableItemBackground"
-        android:contentDescription="imgbtn"
-        android:src="@drawable/rectangleoutfits"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.933"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.121"/>
-
-    <ImageView
-        android:id="@+id/imageView24"
-        android:layout_width="167dp"
-        android:layout_height="58dp"
-        android:src="@drawable/outfittitle"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.934"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.521" />
-
-    <ImageButton
-        android:id="@+id/imageButton4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="124dp"
-        android:layout_marginEnd="22dp"
-        android:background="?attr/selectableItemBackground"
-        android:contentDescription="imgbtn"
-        android:src="@drawable/rectangleoutfits"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.933"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.44" />
-
-    <ImageButton
-        android:id="@+id/imageButton6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="19dp"
-        android:layout_marginTop="125dp"
-        android:background="?attr/selectableItemBackground"
-        android:contentDescription="imgbtn"
-        android:src="@drawable/rectangleoutfits"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.066"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.746" />
-
-    <ImageView
-        android:id="@+id/imageView25"
-        android:layout_width="167dp"
-        android:layout_height="58dp"
-        android:src="@drawable/outfittitle"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.065"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.786" />
-
-    <ImageView
-        android:id="@+id/imageView20"
-        android:layout_width="167dp"
-        android:layout_height="58dp"
-        android:src="@drawable/outfittitle"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.065"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.26" />
-
-    <ImageView
-        android:id="@+id/imageView27"
-        android:layout_width="167dp"
-        android:layout_height="58dp"
-        android:src="@drawable/outfittitle"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.926"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.258" />
+        <ImageButton
+            android:id="@+id/imageButton33"
+            android:layout_width="191dp"
+            android:layout_height="182dp"
+            android:layout_below="@+id/imageButton27"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="29dp"
+            android:background="?attr/selectableItemBackground"
+            android:scaleType="fitCenter"
+            android:src="@drawable/rectangleclothes" />
 
 </RelativeLayout>
