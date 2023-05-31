@@ -1,16 +1,16 @@
 package com.example.drippy;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.content.res.AppCompatResources;
 
 import android.content.Intent;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class Signup extends AppCompatActivity {
 
     Button btnCreate;
+    TextView txtLogin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +20,12 @@ public class Signup extends AppCompatActivity {
         btnCreate = findViewById(R.id.btnCreate);
         btnCreate.setOnClickListener(view -> {
             Intent intent = new Intent(Signup.this, Homepage.class);
+            startActivity(intent);
+        });
+
+        txtLogin = findViewById(R.id.textViewSignIn);
+        txtLogin.setOnClickListener(view -> {
+            Intent intent = new Intent(Signup.this, Login.class);
             startActivity(intent);
         });
     }

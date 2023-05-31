@@ -8,7 +8,7 @@
     tools:context=".Login">
 
     <ImageView
-        android:id="@+id/imageView26"
+        android:id="@+id/imageView13"
         android:layout_width="325dp"
         android:layout_height="63dp"
         android:layout_marginStart="43dp"
@@ -20,12 +20,28 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView27"
+        android:id="@+id/imageView14"
         android:layout_width="45dp"
-        android:layout_height="45dp"
+        android:layout_height="44dp"
         android:layout_marginStart="68dp"
-        android:layout_marginTop="308dp"
+        android:layout_marginTop="310dp"
         android:src="@drawable/accounticon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/loginUsername"
+        android:layout_width="210dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="308dp"
+        android:background="@null"
+        android:ems="10"
+        android:fontFamily="@font/garetbold"
+        android:hint="@string/txtUsername"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="#FAD3EF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -42,7 +58,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPassword2"
+        android:id="@+id/loginPassword"
         android:layout_width="210dp"
         android:layout_height="48dp"
         android:layout_marginStart="120dp"
@@ -53,11 +69,12 @@
         android:hint="@string/txtPass"
         android:inputType="textPassword"
         android:textColor="@color/white"
+        android:textColorHint="#FAD3EF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView28"
+        android:id="@+id/imageView16"
         android:layout_width="44dp"
         android:layout_height="45dp"
         android:layout_marginStart="68dp"
@@ -76,21 +93,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.116"
         app:srcCompat="@drawable/logo_round_border" />
-
-    <EditText
-        android:id="@+id/userLogin"
-        android:layout_width="210dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="120dp"
-        android:layout_marginTop="308dp"
-        android:background="@null"
-        android:ems="10"
-        android:fontFamily="@font/garetbold"
-        android:hint="@string/txtUsername"
-        android:inputType="text"
-        android:textColor="@color/white"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
