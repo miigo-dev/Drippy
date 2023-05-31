@@ -10,4 +10,6 @@
 
     <color name="style1">#004AAD</color>
     <color name="style2">#CB6CE6</color>
+
+    <color name="my_button_color">#FF0000</color>
 </resources>
