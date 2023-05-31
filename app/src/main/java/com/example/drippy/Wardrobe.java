@@ -1,5 +1,8 @@
 package com.example.drippy;
 
+import static com.example.drippy.R.id.btnPlanning;
+import static com.example.drippy.R.id.wardrobe;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -22,16 +25,23 @@ public class Wardrobe extends AppCompatActivity {
     private ImageButton imageButton;
     private ImageView imageView;
 
+    ImageButton imgBtn;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_wardrobe);
 
-
-
         TextView textView = findViewById(R.id.Viewall);
         textView.setPaintFlags(textView.getPaintFlags()|Paint.UNDERLINE_TEXT_FLAG);
         imageButton = findViewById(R.id.camera);
+
+        imgBtn = findViewById(R.id.btnPlanning);
+
+        imgBtn.setOnClickListener(view -> {
+            Intent intent = new Intent(Wardrobe.this, Outfit_Planning.class );
+            startActivity(intent);
+        });
 
         imageButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -44,6 +54,7 @@ public class Wardrobe extends AppCompatActivity {
             }
         });
     }
+
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {

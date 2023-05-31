@@ -284,25 +284,26 @@
 
     <ImageButton
         android:id="@+id/home_button"
-        android:layout_width="50dp"
-        android:layout_height="52dp"
+        android:layout_width="43dp"
+        android:layout_height="46dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:background="@color/white"
-        android:contentDescription="home_button"
+        android:contentDescription="homeicon"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.199"
+        app:layout_constraintHorizontal_bias="0.195"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.969"
-        app:srcCompat="@drawable/home" />
+        app:layout_constraintVertical_bias="0.963"
+        app:srcCompat="@drawable/homeicons"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <ImageButton
         android:id="@+id/wardrobe"
-        android:layout_width="49dp"
-        android:layout_height="50dp"
+        android:layout_width="43dp"
+        android:layout_height="46dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:autofillHints="asd"
@@ -311,33 +312,34 @@
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.361"
+        app:layout_constraintHorizontal_bias="0.364"
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.966"
-        app:srcCompat="@drawable/wardrobe" />
+        app:layout_constraintVertical_bias="0.963"
+        app:srcCompat="@drawable/wardrobeicons"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <ImageButton
-        android:id="@+id/planning"
-        android:layout_width="57dp"
-        android:layout_height="52dp"
+        android:id="@+id/btnPlanning"
+        android:layout_width="43dp"
+        android:layout_height="46dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:background="@color/white"
-        android:contentDescription="planning"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.581"
+        app:layout_constraintHorizontal_bias="0.59"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.966"
-        app:srcCompat="@drawable/planning" />
+        app:layout_constraintVertical_bias="0.963"
+        app:srcCompat="@drawable/planningicons"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <ImageButton
         android:id="@+id/suggestion"
-        android:layout_width="49dp"
-        android:layout_height="50dp"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:background="@color/white"
@@ -348,8 +350,9 @@
         app:layout_constraintHorizontal_bias="0.767"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.963"
-        app:srcCompat="@drawable/suggestion" />
+        app:layout_constraintVertical_bias="0.961"
+        app:srcCompat="@drawable/suggestionsicons"
+        tools:ignore="TouchTargetSizeCheck" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
