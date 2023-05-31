@@ -8,10 +8,17 @@ import android.widget.Button;
 
 public class Login extends AppCompatActivity {
 
+    Button btnClickable;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signin);
 
+
+        btnClickable.setOnClickListener(view -> {
+            Intent intent = new Intent(Login.this, Homepage.class);
+            startActivity(intent);
+        });
     }
 }
