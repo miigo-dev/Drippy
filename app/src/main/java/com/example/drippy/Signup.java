@@ -55,7 +55,6 @@ public class Signup extends AppCompatActivity {
                     });
         });
 
-
         TextView txtLogin = findViewById(R.id.textViewSignIn);
         txtLogin.setOnClickListener(view -> {
             Intent intent = new Intent(Signup.this, Login.class);
