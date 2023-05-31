@@ -23,4 +23,11 @@
     <string name="Find_your_style">Find Your Best Style</string>
     <string name="description">Discover your best style and find the perfect outfit in seconds with our outfit recommendation system!</string>
     <string name="started">Get Started</string>
+
+    //Outfit Planning
+    <string name="outfit">Outfit Planning</string>
+    <string name="clothes">Clothes</string>
+    <string name="outfits">Outfits</string>
+    <string name="calendar">Calendar</string>
+
 </resources>
