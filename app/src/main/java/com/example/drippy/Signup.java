@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -14,7 +15,8 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class Signup extends AppCompatActivity {
 
-    EditText editTextEmail, editTextPassword;
+    EditText editTextEmail, editTextPassword, editTextUsername;
+    TextView error;
     FirebaseAuth mAuth;
 
     @Override
@@ -26,11 +28,13 @@ public class Signup extends AppCompatActivity {
 
         editTextEmail = findViewById(R.id.email);
         editTextPassword = findViewById(R.id.password);
+        editTextUsername = findViewById(R.id.username);
         Button btnCreate = findViewById(R.id.btnCreate);
         btnCreate.setOnClickListener(view -> {
-            String email, password;
+            String email, password, username;
             email = String.valueOf(editTextEmail.getText());
             password = String.valueOf(editTextPassword.getText());
+            username = String.valueOf(editTextUsername.getText());
 
             if (TextUtils.isEmpty(email)) {
                 Toast.makeText(Signup.this, "Enter Email", Toast.LENGTH_SHORT).show();
@@ -42,13 +46,32 @@ public class Signup extends AppCompatActivity {
                 return;
             }
 
+            if (password.length() < 6) {
+                error = findViewById(R.id.errorMsg);
+                error.setVisibility(View.VISIBLE);
+                error.setText(R.string.passLength);
+                return;
+            } else {
+                error.setVisibility(View.GONE);
+            }
+
+            if (TextUtils.isEmpty(username)) {
+                error = findViewById(R.id.errorMsg);
+                error.setVisibility(View.VISIBLE);
+                error.setText(R.string.userEmpty);
+                return;
+            } else {
+                error.setVisibility(View.GONE);
+            }
+
             mAuth.createUserWithEmailAndPassword(email, password)
                     .addOnCompleteListener(task -> {
                         if (task.isSuccessful()) {
                             Toast.makeText(Signup.this, "Account Created",
                                     Toast.LENGTH_SHORT).show();
-                        }
-                        else {
+
+                            startActivity(new Intent(Signup.this, Homepage.class));
+                        } else {
                             Toast.makeText(Signup.this, "Error",
                                     Toast.LENGTH_SHORT).show();
                         }

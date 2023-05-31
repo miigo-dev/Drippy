@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
-    tools:context=".Signup" 
+    tools:context=".Signup"
     tools:layout_editor_absoluteX="-12dp"
     tools:layout_editor_absoluteY="-1dp">
 
@@ -93,6 +93,7 @@
         android:layout_marginStart="43dp"
         android:layout_marginTop="372dp"
         android:src="@drawable/inputbg"
+        android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -183,18 +184,22 @@
         android:fontFamily="@font/garetbold"
         android:hint="@string/txtPass"
         android:inputType="textPassword"
-        android:textColorHint="#FAD3EF"
         android:textColor="@color/white"
+        android:textColorHint="#FAD3EF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/test"
+        android:id="@+id/errorMsg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="688dp"
         android:text="TextView"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="#FF0000"
+        android:visibility="gone"
+        android:textSize="12sp"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="672dp" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
