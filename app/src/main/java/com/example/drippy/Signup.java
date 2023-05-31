@@ -16,6 +16,7 @@ public class Signup extends AppCompatActivity {
 
     EditText editTextEmail, editTextPassword;
     FirebaseAuth mAuth;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,10 +34,12 @@ public class Signup extends AppCompatActivity {
 
             if (TextUtils.isEmpty(email)) {
                 Toast.makeText(Signup.this, "Enter Email", Toast.LENGTH_SHORT).show();
+                return;
             }
 
             if (TextUtils.isEmpty(password)) {
                 Toast.makeText(Signup.this, "Enter Password", Toast.LENGTH_SHORT).show();
+                return;
             }
 
             mAuth.createUserWithEmailAndPassword(email, password)
@@ -51,6 +54,7 @@ public class Signup extends AppCompatActivity {
                         }
                     });
         });
+
 
         TextView txtLogin = findViewById(R.id.textViewSignIn);
         txtLogin.setOnClickListener(view -> {
