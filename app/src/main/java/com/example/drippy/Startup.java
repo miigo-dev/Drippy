@@ -10,33 +10,13 @@ import android.view.View;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.ImageView;
 
-import com.google.firebase.FirebaseApp;
-import com.google.firebase.FirebaseOptions;
-
-import java.io.FileInputStream;
-
-
 public class Startup extends AppCompatActivity {
-
     private static final int ANIMATION_DURATION = 2000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_startup);
-
-        /*
-        FileInputStream serviceAccount =
-                new FileInputStream("path/to/serviceAccountKey.json");
-
-        FirebaseOptions options = new FirebaseOptions.Builder()
-                .setCredentials(GoogleCredentials.fromStream(serviceAccount))
-                .setDatabaseUrl("https://drippy-16d7d-default-rtdb.asia-southeast1.firebasedatabase.app")
-                .build();
-
-        FirebaseApp.initializeApp(options);
-         */
-
 
         // Fade-in Logo Animation
         ImageView logoImageView = findViewById(R.id.imageView3);
