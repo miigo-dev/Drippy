@@ -19,6 +19,7 @@ public class Login extends AppCompatActivity {
 
     FirebaseAuth mAuth;
 
+    /*
     @Override
     public void onStart() {
         super.onStart();
@@ -27,6 +28,7 @@ public class Login extends AppCompatActivity {
             startActivity(new Intent(Login.this, Homepage.class));
         }
     }
+     */
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,16 +62,12 @@ public class Login extends AppCompatActivity {
                             Toast.makeText(Login.this, "Successfully Logged-in.",
                                     Toast.LENGTH_SHORT).show();
                             startActivity(new Intent(Login.this, Homepage.class));
+                            finish();
                         } else {
                             Toast.makeText(Login.this, "Authentication failed.",
                                     Toast.LENGTH_SHORT).show();
                             }
                     });
         });
-    }
-
-    @Override
-    public void onBackPressed() {
-        moveTaskToBack(true);
     }
 }
