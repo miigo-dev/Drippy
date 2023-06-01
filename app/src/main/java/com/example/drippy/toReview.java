@@ -7,14 +7,17 @@ import android.view.ViewGroup;
 
 import androidx.fragment.app.Fragment;
 
-public class Op_OutfitsFragment extends Fragment {
+
+public class toReview extends Fragment {
 
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.outfitsfragment_op, container, false);
+        return inflater.inflate(R.layout.fragment_to_review, container, false);
+
+
 
     }
 }
