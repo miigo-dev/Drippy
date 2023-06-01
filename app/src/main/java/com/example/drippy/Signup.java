@@ -12,12 +12,22 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class Signup extends AppCompatActivity {
 
     EditText editTextEmail, editTextPassword, editTextUsername;
     TextView error;
     FirebaseAuth mAuth;
+
+    @Override
+    public void onStart() {
+        super.onStart();
+        FirebaseUser currentUser = mAuth.getCurrentUser();
+        if(currentUser != null){
+            startActivity(new Intent(Signup.this, Homepage.class));
+        }
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -69,7 +79,6 @@ public class Signup extends AppCompatActivity {
                         if (task.isSuccessful()) {
                             Toast.makeText(Signup.this, "Account Created",
                                     Toast.LENGTH_SHORT).show();
-
                             startActivity(new Intent(Signup.this, Homepage.class));
                         } else {
                             Toast.makeText(Signup.this, "Error",
