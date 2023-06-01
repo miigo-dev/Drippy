@@ -19,6 +19,9 @@ public class Wardrobe extends AppCompatActivity {
     private ImageView imageView;
 
     ImageButton imgBtn;
+    ImageButton imgBtn1;
+
+    ImageButton imgBtn2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +36,20 @@ public class Wardrobe extends AppCompatActivity {
 
         imgBtn.setOnClickListener(view -> {
             Intent intent = new Intent(Wardrobe.this, Outfit_Planning.class );
+            startActivity(intent);
+        });
+
+        imgBtn1 = findViewById(R.id.btnSuggestion);
+
+        imgBtn1.setOnClickListener(view -> {
+            Intent intent = new Intent(Wardrobe.this, OutfitSuggestion.class );
+            startActivity(intent);
+        });
+
+        imgBtn2 = findViewById(R.id.btnHome);
+
+        imgBtn2.setOnClickListener(view -> {
+            Intent intent = new Intent(Wardrobe.this, Homepage.class );
             startActivity(intent);
         });
 

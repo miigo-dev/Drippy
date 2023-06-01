@@ -24,6 +24,8 @@ public class Outfit_Planning extends AppCompatActivity {
     ImageButton imageButton1;
     ImageButton imageButton2;
 
+    ImageButton imageButton3;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -46,6 +48,13 @@ public class Outfit_Planning extends AppCompatActivity {
             Intent intent = new Intent(Outfit_Planning.this, Wardrobe.class );
             startActivity(intent);
         });
+
+        imageButton3 = findViewById(R.id.btnSuggestion);
+        imageButton3.setOnClickListener(view -> {
+            Intent intent = new Intent(Outfit_Planning.this, OutfitSuggestion.class );
+            startActivity(intent);
+        });
+
 
         tabLayout = findViewById(R.id.tablayout);
         viewPager2 = findViewById(R.id.viewpager);

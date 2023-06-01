@@ -33,10 +33,11 @@
         android:background="?attr/selectableItemBackground"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent"
+        android:scaleType="fitCenter"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.057"
+        app:layout_constraintVertical_bias="0.08"
         app:srcCompat="@drawable/back"
         tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
@@ -51,7 +52,7 @@
         app:layout_constraintHorizontal_bias="0.885"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.048"
+        app:layout_constraintVertical_bias="0.081"
         app:srcCompat="@drawable/add_24"
         tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
@@ -102,13 +103,13 @@
         android:layout_width="30dp"
         android:layout_height="22dp"
         android:layout_marginEnd="233.8dp"
-        android:contentDescription="blackcircle"
+        android:contentDescription="circle"
         android:background="?attr/selectableItemBackground"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.982"
-        app:srcCompat="@drawable/blackcircle"
+        app:srcCompat="@drawable/circle"
         tools:ignore="TouchTargetSizeCheck" />
 
     <ImageButton
@@ -123,7 +124,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.982"
-        app:srcCompat="@drawable/circle"
+        app:srcCompat="@drawable/blackcircle"
         tools:ignore="TouchTargetSizeCheck" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -145,9 +146,10 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHeight_percent=".78"
-            app:layout_constraintHorizontal_bias="0.333"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
 
         <com.google.android.material.tabs.TabLayout
             android:id="@+id/tablayout"

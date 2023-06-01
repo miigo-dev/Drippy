@@ -39,4 +39,7 @@
     <string name="title_activity_order_statuss">OrderStatuss</string>
     <string name="title_activity_order">Order</string>
 
+    //Outfit Suggestions
+    <string name="suggestion">Outfit Suggestions</string>
+
 </resources>
