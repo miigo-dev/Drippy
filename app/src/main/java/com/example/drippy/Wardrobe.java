@@ -1,24 +1,17 @@
 package com.example.drippy;
 
-import static com.example.drippy.R.id.btnPlanning;
-import static com.example.drippy.R.id.wardrobe;
-
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.Paint;
 import android.os.Bundle;
 import android.provider.MediaStore;
-import android.text.SpannableString;
-import android.text.style.ClickableSpan;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class Wardrobe extends AppCompatActivity {
 
