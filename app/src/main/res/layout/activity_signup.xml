@@ -151,7 +151,7 @@
         android:ems="10"
         android:fontFamily="@font/garetbold"
         android:hint="@string/txtUsername"
-        android:inputType="text"
+        android:inputType="textPersonName"
         android:textColor="@color/white"
         android:textColorHint="#FAD3EF"
         app:layout_constraintStart_toStartOf="parent"

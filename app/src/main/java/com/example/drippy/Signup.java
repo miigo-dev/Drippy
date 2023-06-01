@@ -35,44 +35,40 @@ public class Signup extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
 
+
         mAuth = FirebaseAuth.getInstance();
 
+        editTextUsername = findViewById(R.id.username);
         editTextEmail = findViewById(R.id.email);
         editTextPassword = findViewById(R.id.password);
-        editTextUsername = findViewById(R.id.username);
         Button btnCreate = findViewById(R.id.btnCreate);
         btnCreate.setOnClickListener(view -> {
-            String email, password, username;
+            String username, email, password;
+            username = String.valueOf(editTextUsername.getText());
             email = String.valueOf(editTextEmail.getText());
             password = String.valueOf(editTextPassword.getText());
-            username = String.valueOf(editTextUsername.getText());
+
+            StringBuilder errorMessage = new StringBuilder();
+
+            if (TextUtils.isEmpty(username)) {
+                errorMessage.append("Enter Username\n");
+            }
 
             if (TextUtils.isEmpty(email)) {
-                Toast.makeText(Signup.this, "Enter Email", Toast.LENGTH_SHORT).show();
-                return;
+                errorMessage.append("Enter Email\n");
             }
 
             if (TextUtils.isEmpty(password)) {
-                Toast.makeText(Signup.this, "Enter Password", Toast.LENGTH_SHORT).show();
-                return;
+                errorMessage.append("Enter Password\n");
             }
 
             if (password.length() < 6) {
-                error = findViewById(R.id.errorMsg);
-                error.setVisibility(View.VISIBLE);
-                error.setText(R.string.passLength);
-                return;
-            } else {
-                error.setVisibility(View.GONE);
+                errorMessage.append(getString(R.string.passLength));
             }
 
-            if (TextUtils.isEmpty(username)) {
-                error = findViewById(R.id.errorMsg);
-                error.setVisibility(View.VISIBLE);
-                error.setText(R.string.userEmpty);
+            if (errorMessage.length() > 0) {
+                Toast.makeText(Signup.this, errorMessage.toString(), Toast.LENGTH_SHORT).show();
                 return;
-            } else {
-                error.setVisibility(View.GONE);
             }
 
             mAuth.createUserWithEmailAndPassword(email, password)

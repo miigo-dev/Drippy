@@ -28,6 +28,7 @@ public class Login extends AppCompatActivity {
             startActivity(new Intent(Login.this, Homepage.class));
         }
     }
+
      */
 
     @Override
@@ -46,13 +47,18 @@ public class Login extends AppCompatActivity {
             email = String.valueOf(editTextEmail.getText());
             password = String.valueOf(editTextPassword.getText());
 
+            StringBuilder errorMessage = new StringBuilder();
+
             if (TextUtils.isEmpty(email)) {
-                Toast.makeText(Login.this, "Enter Email", Toast.LENGTH_SHORT).show();
-                return;
+                errorMessage.append("Enter Email\n");
             }
 
             if (TextUtils.isEmpty(password)) {
-                Toast.makeText(Login.this, "Enter Password", Toast.LENGTH_SHORT).show();
+                errorMessage.append("Enter Password\n");
+            }
+
+            if (errorMessage.length() > 0) {
+                Toast.makeText(Login.this, errorMessage.toString(), Toast.LENGTH_SHORT).show();
                 return;
             }
 
@@ -62,12 +68,16 @@ public class Login extends AppCompatActivity {
                             Toast.makeText(Login.this, "Successfully Logged-in.",
                                     Toast.LENGTH_SHORT).show();
                             startActivity(new Intent(Login.this, Homepage.class));
-                            finish();
                         } else {
                             Toast.makeText(Login.this, "Authentication failed.",
                                     Toast.LENGTH_SHORT).show();
                             }
                     });
         });
+    }
+
+    @Override
+    public void onBackPressed() {
+        moveTaskToBack(true);
     }
 }
