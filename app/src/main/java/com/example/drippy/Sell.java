@@ -11,6 +11,8 @@ public class Sell extends AppCompatActivity {
     private ImageButton myProduct;
     private ImageButton rating;
     private ImageButton financeBtn;
+    private ImageButton wardrobeBtn;
+
 
     private ImageButton toShip;
     private ImageButton cancelled;
@@ -27,6 +29,8 @@ public class Sell extends AppCompatActivity {
         ImageButton myProduct = findViewById(R.id.myProduct);
         ImageButton rating = findViewById(R.id.rating);
         ImageButton financeBtn = findViewById(R.id.financeBtn);
+        ImageButton wardrobeBtn = findViewById(R.id.wardrobeBtn);
+
 
         ImageButton toShip = findViewById(R.id.toShip);
         ImageButton cancelled = findViewById(R.id.cancelled);
@@ -65,7 +69,10 @@ public class Sell extends AppCompatActivity {
             Intent intent = new Intent(Sell.this, Finance.class);
             startActivity(intent);
         });
-
+        wardrobeBtn.setOnClickListener(view -> {
+            Intent intent = new Intent(Sell.this, Wardrobe.class);
+            startActivity(intent);
+        });
 
     }
 }

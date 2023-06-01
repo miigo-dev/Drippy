@@ -124,9 +124,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="45dp"
-        android:layout_marginEnd="208dp"
-        android:layout_marginBottom="619dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginEnd="211dp"
+        android:layout_marginBottom="560dp"
         android:background="@color/white"
         app:srcCompat="@drawable/menbutton" />
 
@@ -136,8 +136,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="40dp"
-        android:layout_marginBottom="619dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="559dp"
         android:background="@color/white"
         app:srcCompat="@drawable/bnwwomenbtn" />
 
