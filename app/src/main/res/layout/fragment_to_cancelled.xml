@@ -1,450 +1,286 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".toCancelled">
 
+
     <ImageView
-        android:id="@+id/imageView21"
+        android:id="@+id/imageView30"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="11dp"
-        android:layout_marginTop="1dp"
-        android:layout_marginEnd="11dp"
-        android:src="@drawable/orderbox"
-
-        />
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="359dp"
+        android:src="@drawable/cancelled_rec" />
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView21"
-        android:layout_alignParentStart="true"
+        android:id="@+id/imageView31"
+        android:layout_width="93dp"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@+id/imageView26"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="9dp"
-        android:src="@drawable/orderbox" />
-
-    <ImageView
-        android:id="@+id/imageView22"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/imageView21"
-        android:layout_alignBottom="@+id/imageView21"
-        android:layout_marginStart="87dp"
-        android:layout_marginBottom="37dp"
-        android:src="@drawable/preorder" />
+        android:layout_marginEnd="271dp"
+        android:layout_marginBottom="-169dp"
+        android:src="@drawable/cancelled_picrec" />
 
     <TextView
-        android:id="@+id/textView22"
-        android:layout_width="wrap_content"
+        android:id="@+id/textView38"
+        android:layout_width="68dp"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/imageView21"
-        android:layout_alignTop="@+id/imageView21"
-        android:layout_marginStart="87dp"
-        android:layout_marginTop="12dp"
-        android:text="bolads21"
-        android:textSize="8dp" />
-
-    <TextView
-        android:id="@+id/textView27"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/imageView21"
-        android:layout_alignBottom="@+id/imageView21"
-        android:layout_marginStart="87dp"
-        android:layout_marginBottom="18dp"
-        android:text="Polo Shirt"
+        android:layout_alignStart="@+id/imageView218"
+        android:layout_alignEnd="@+id/imageView26"
+        android:layout_alignBottom="@+id/imageView26"
+        android:layout_marginStart="160dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="-123dp"
+        android:text="T-Shirt"
         android:textColor="@color/black"
         android:textSize="12dp" />
 
     <TextView
-        android:id="@+id/textView29"
-        android:layout_width="wrap_content"
+        android:id="@+id/textView39"
+        android:layout_width="62dp"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/imageView21"
-        android:layout_alignBottom="@+id/imageView21"
-        android:layout_marginStart="87dp"
-        android:layout_marginBottom="9dp"
-        android:text="variation: White/S"
+        android:layout_alignStart="@+id/imageView218"
+        android:layout_alignEnd="@+id/imageView26"
+        android:layout_alignBottom="@+id/imageView26"
+        android:layout_marginStart="159dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="-137dp"
+        android:text="variation: White/M"
         android:textSize="6dp" />
 
     <TextView
-        android:id="@+id/textView30"
+        android:id="@+id/textView40"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/imageView21"
-        android:layout_alignEnd="@+id/imageView21"
-        android:layout_alignBottom="@+id/imageView21"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="191dp"
-        android:layout_marginBottom="28dp"
-        android:text="x2"
+        android:layout_alignTop="@+id/imageView26"
+        android:layout_alignEnd="@+id/imageView26"
+        android:layout_marginTop="193dp"
+        android:layout_marginEnd="23dp"
+        android:text="Cancelled"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView81"
+        android:layout_alignEnd="@+id/imageView26"
+        android:layout_alignBottom="@+id/imageView218"
+        android:layout_marginTop="225dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="-162dp"
+        android:text="Order ID 563214"
+        android:textSize="8dp" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView26"
+        android:layout_alignEnd="@+id/imageView26"
+        android:layout_alignBottom="@+id/imageView218"
+        android:layout_marginTop="257dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="-193dp"
+        android:text="Php 299.75"
         android:textSize="10dp" />
 
     <TextView
-        android:id="@+id/textView31"
+        android:id="@+id/textView43"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/imageView21"
-        android:layout_alignEnd="@+id/imageView21"
-        android:layout_alignBottom="@+id/imageView21"
-        android:layout_marginTop="27dp"
-        android:layout_marginEnd="107dp"
-        android:layout_marginBottom="29dp"
-        android:textSize="10dp"
-        android:text="Php 500.75" />
-
-    <TextView
-        android:id="@+id/textView33"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/imageView21"
-        android:layout_alignEnd="@+id/imageView21"
-        android:layout_alignBottom="@+id/imageView21"
-        android:layout_marginTop="41dp"
-        android:layout_marginEnd="122dp"
-        android:layout_marginBottom="14dp"
-        android:text="GCash"
-        android:textSize="8sp"/>
-
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/imageView2"
-        android:layout_alignTop="@+id/imageView2"
-        android:layout_marginStart="87dp"
-        android:layout_marginTop="12dp"
-        android:text="migorengtr"
+        android:layout_alignTop="@+id/imageView26"
+        android:layout_alignEnd="@+id/imageView26"
+        android:layout_alignBottom="@+id/imageView218"
+        android:layout_marginTop="277dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="-221dp"
+        android:text="COD"
         android:textSize="8dp" />
 
-
     <TextView
-        android:id="@+id/textView223"
+        android:id="@+id/textView44"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/imageView2"
-        android:layout_alignBottom="@+id/imageView2"
-        android:layout_marginStart="87dp"
-        android:layout_marginBottom="18dp"
-        android:text="Cream Jacket"
-        android:textColor="@color/black"
-        android:textSize="12dp"
-        />
-
-    <TextView
-        android:id="@+id/textView291"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/imageView2"
-        android:layout_alignBottom="@+id/imageView2"
-        android:layout_marginStart="87dp"
-        android:layout_marginBottom="9dp"
-        android:text="variation: 21/L"
-        android:textSize="6dp" />
-
-    <TextView
-        android:id="@+id/textView310"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/imageView2"
-        android:layout_alignEnd="@+id/imageView2"
-        android:layout_alignBottom="@+id/imageView2"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="191dp"
-        android:layout_marginBottom="28dp"
+        android:layout_alignTop="@+id/imageView26"
+        android:layout_alignEnd="@+id/imageView26"
+        android:layout_alignBottom="@+id/imageView218"
+        android:layout_marginTop="258dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="-194dp"
         android:text="x1"
         android:textSize="10dp" />
 
-    <TextView
-        android:id="@+id/textView314"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/imageView2"
-        android:layout_alignEnd="@+id/imageView2"
-        android:layout_alignBottom="@+id/imageView2"
-        android:layout_marginTop="27dp"
-        android:layout_marginEnd="107dp"
-        android:layout_marginBottom="29dp"
-        android:textSize="10dp"
-        android:text="Php 1009.35" />
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="44dp"
+        android:layout_height="10dp"
+        android:layout_alignEnd="@+id/imageView26"
+        android:layout_alignBottom="@+id/imageView26"
+        android:layout_marginEnd="179dp"
+        android:layout_marginBottom="-102dp"
+        android:src="@drawable/cancelled_onhand" />
 
     <TextView
-        android:id="@+id/textView337"
-        android:layout_width="wrap_content"
+        android:id="@+id/textView32"
+        android:layout_width="79dp"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/imageView2"
-        android:layout_alignEnd="@+id/imageView2"
-        android:layout_alignBottom="@+id/imageView2"
-        android:layout_marginTop="41dp"
-        android:layout_marginEnd="122dp"
-        android:layout_marginBottom="14dp"
-        android:text="COD"
-        android:textSize="8dp"/>
+        android:layout_alignStart="@+id/imageView218"
+        android:layout_alignTop="@+id/imageView218"
+        android:layout_alignEnd="@+id/imageView26"
+        android:layout_alignBottom="@+id/imageView27"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="185dp"
+        android:layout_marginEnd="241dp"
+        android:layout_marginBottom="-75dp"
+        android:text="miguelchristoff_"
+        android:textSize="8dp" />
 
     <ImageView
-        android:id="@+id/imageView23"
+        android:id="@+id/imageView26"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/imageView2"
-        android:layout_alignBottom="@+id/imageView2"
-        android:layout_marginStart="87dp"
-        android:layout_marginBottom="37dp"
-        android:src="@drawable/onhand" />
-
-    <TextView
-        android:id="@+id/textView28"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/imageView21"
-        android:layout_alignEnd="@+id/imageView21"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="27dp"
-        android:text="Cancelled"
-        android:textColor="@color/black"
-        android:textStyle="bold"
-        android:textSize="8dp"
-        />
-
-    <TextView
-        android:id="@+id/textView321"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/imageView21"
-        android:layout_alignEnd="@+id/imageView21"
-        android:layout_alignBottom="@+id/imageView21"
-        android:layout_marginTop="27dp"
-        android:layout_marginEnd="27dp"
-        android:layout_marginBottom="29dp"
-        android:text="J﹠T Express"
-        android:textSize="10dp" />
-
-    <TextView
-        android:id="@+id/textView281"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/imageView2"
-        android:layout_alignEnd="@+id/imageView2"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="27dp"
-        android:text="Cancelled"
-        android:textStyle="bold"
-        android:textColor="@color/black"
-        android:textSize="8dp"/>
-
-    <TextView
-        android:id="@+id/textView3221"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/imageView2"
-        android:layout_alignEnd="@+id/imageView2"
-        android:layout_alignBottom="@+id/imageView2"
-        android:layout_marginTop="27dp"
-        android:layout_marginEnd="27dp"
-        android:layout_marginBottom="29dp"
-        android:text="Gogo Express"
-        android:textSize="10dp" />
-
-    <ImageView
-        android:id="@+id/imageView218"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView2"
-        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="10dp"
-
-        android:src="@drawable/orderbox" />
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="542dp"
+        android:src="@drawable/cancelled_rec" />
 
     <TextView
-        android:id="@+id/textView200"
+        android:id="@+id/textView36"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/imageView218"
         android:layout_alignTop="@+id/imageView218"
-        android:layout_marginStart="87dp"
-        android:layout_marginTop="12dp"
+        android:layout_alignEnd="@+id/imageView26"
+        android:layout_alignBottom="@+id/imageView27"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="185dp"
+        android:layout_marginEnd="267dp"
+        android:layout_marginBottom="112dp"
         android:text="noellepoppins88"
         android:textSize="8dp" />
 
     <ImageView
-        android:id="@+id/imageView239"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/imageView218"
-        android:layout_alignBottom="@+id/imageView218"
-        android:layout_marginStart="87dp"
-        android:layout_marginBottom="37dp"
-        android:src="@drawable/onhand" />
+        android:id="@+id/imageView27"
+        android:layout_width="93dp"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@+id/imageView26"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="270dp"
+        android:layout_marginBottom="14dp"
+        android:src="@drawable/cancelled_picrec" />
+
 
     <TextView
         android:id="@+id/textView73"
-        android:layout_width="wrap_content"
+        android:layout_width="68dp"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/imageView218"
-        android:layout_alignBottom="@+id/imageView218"
-        android:layout_marginStart="87dp"
-        android:layout_marginBottom="18dp"
-        android:text="Oversized Shirt"
+        android:layout_alignEnd="@+id/imageView26"
+        android:layout_alignBottom="@+id/imageView26"
+        android:layout_marginStart="160dp"
+        android:layout_marginEnd="155dp"
+        android:layout_marginBottom="60dp"
+        android:text="Waffle Shirt"
         android:textColor="@color/black"
-        android:textSize="12dp"
-        />
+        android:textSize="12dp" />
 
     <TextView
         android:id="@+id/textView91"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/imageView218"
-        android:layout_alignBottom="@+id/imageView218"
-        android:layout_marginStart="87dp"
-        android:layout_marginBottom="9dp"
+        android:layout_alignEnd="@+id/imageView26"
+        android:layout_alignBottom="@+id/imageView26"
+        android:layout_marginStart="159dp"
+        android:layout_marginEnd="171dp"
+        android:layout_marginBottom="46dp"
         android:text="variation: Black/L"
         android:textSize="6dp" />
-
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/imageView218"
-        android:layout_alignEnd="@+id/imageView218"
-        android:layout_alignBottom="@+id/imageView218"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="191dp"
-        android:layout_marginBottom="28dp"
-        android:text="x1"
-        android:textSize="10dp" />
-
-    <TextView
-        android:id="@+id/textView14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/imageView218"
-        android:layout_alignEnd="@+id/imageView218"
-        android:layout_alignBottom="@+id/imageView218"
-        android:layout_marginTop="27dp"
-        android:layout_marginEnd="107dp"
-        android:layout_marginBottom="29dp"
-        android:textSize="10dp"
-        android:text="Php 305.25" />
-
-    <TextView
-        android:id="@+id/textView37"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/imageView218"
-        android:layout_alignEnd="@+id/imageView218"
-        android:layout_alignBottom="@+id/imageView218"
-        android:layout_marginTop="41dp"
-        android:layout_marginEnd="122dp"
-        android:layout_marginBottom="14dp"
-        android:text="COD"
-        android:textSize="8dp"/>
 
     <TextView
         android:id="@+id/textView81"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/imageView218"
-        android:layout_alignEnd="@+id/imageView218"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="27dp"
+        android:layout_alignTop="@+id/imageView26"
+        android:layout_alignEnd="@+id/imageView26"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="22dp"
         android:text="Cancelled"
-        android:textStyle="bold"
         android:textColor="@color/black"
-        android:textSize="8dp"/>
+        android:textSize="12dp"
+        android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textView371"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/imageView218"
-        android:layout_alignEnd="@+id/imageView218"
-        android:layout_alignBottom="@+id/imageView218"
-        android:layout_marginTop="27dp"
-        android:layout_marginEnd="27dp"
-        android:layout_marginBottom="29dp"
-        android:text="Gogo Express"
-        android:textSize="10dp" />
-
-    <ImageView
-        android:id="@+id/imageView20"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/imageView21"
-        android:layout_alignTop="@+id/imageView21"
-        android:layout_alignBottom="@+id/imageView21"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"
-        android:src="@drawable/bbx"
-        />
-
-    <ImageView
-        android:id="@+id/imageView2021"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/imageView2"
-        android:layout_alignTop="@+id/imageView2"
-        android:layout_alignBottom="@+id/imageView2"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"
-        android:src="@drawable/bbx"
-        />
-
-    <ImageView
-        android:id="@+id/imageView221"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/imageView218"
-        android:layout_alignTop="@+id/imageView218"
-        android:layout_alignBottom="@+id/imageView218"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"
-        android:src="@drawable/bbx"
-        />
-
-    <TextView
-        android:id="@+id/textView32"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/imageView21"
-        android:layout_alignBottom="@+id/imageView21"
-        android:layout_marginEnd="27dp"
-        android:layout_marginBottom="17dp"
-        android:text="Order ID 074563"
-        android:textSize="8dp" />
-
-    <TextView
-        android:id="@+id/textView352"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/imageView2"
-        android:layout_alignBottom="@+id/imageView2"
-        android:layout_marginEnd="27dp"
-        android:layout_marginBottom="17dp"
-        android:text="Order ID 123456"
-        android:textSize="8dp" />
 
     <TextView
         android:id="@+id/textView52"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/imageView218"
+        android:layout_alignTop="@+id/textView81"
+        android:layout_alignEnd="@+id/imageView26"
         android:layout_alignBottom="@+id/imageView218"
-        android:layout_marginEnd="27dp"
-        android:layout_marginBottom="17dp"
-        android:text="Order ID 642456"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="-162dp"
+        android:text="Order ID 123456"
         android:textSize="8dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView26"
+        android:layout_alignEnd="@+id/imageView26"
+        android:layout_alignBottom="@+id/imageView218"
+        android:layout_marginTop="74dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="-193dp"
+        android:text="Php 400.75"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView26"
+        android:layout_alignEnd="@+id/imageView26"
+        android:layout_alignBottom="@+id/imageView218"
+        android:layout_marginTop="94dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="-221dp"
+        android:text="COD"
+        android:textSize="8dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView26"
+        android:layout_alignEnd="@+id/imageView26"
+        android:layout_alignBottom="@+id/imageView218"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="111dp"
+        android:layout_marginBottom="-194dp"
+        android:text="x1"
+        android:textSize="10dp" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="44dp"
+        android:layout_height="10dp"
+        android:layout_alignEnd="@+id/imageView26"
+        android:layout_alignBottom="@+id/imageView26"
+        android:layout_marginEnd="177dp"
+        android:layout_marginBottom="81dp"
+        android:src="@drawable/cancelled_onhand" />
+
 </RelativeLayout>
