@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".toCancelled">
+
+
+
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="26dp"
+        android:src="@drawable/cancelled_rec" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="93dp"
+        android:layout_height="100dp"
+        android:layout_alignStart="@+id/imageView26"
+        android:layout_alignBottom="@+id/imageView26"
+        android:layout_marginStart="22dp"
+        android:layout_marginBottom="14dp"
+        android:src="@drawable/op_s3" />
+
+
+    <TextView
+        android:id="@+id/textView73"
+        android:layout_width="85dp"
+        android:layout_height="17dp"
+        android:layout_alignStart="@+id/imageView26"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="36dp"
+        android:text="Dark Blue Shirt"
+        android:fontFamily="@font/garetbold"
+
+        android:textColor="@color/black"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/textView81"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView26"
+        android:layout_alignBottom="@+id/imageView26"
+        android:layout_marginStart="132dp"
+        android:layout_marginBottom="72dp"
+        android:text="Php 200"
+        android:fontFamily="@font/garetbold"
+
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView26"
+        android:layout_alignBottom="@+id/imageView26"
+        android:layout_marginStart="282dp"
+        android:layout_marginBottom="45dp"
+        android:text="Views 103"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView53"
+        android:layout_alignStart="@+id/imageView26"
+        android:layout_marginStart="282dp"
+        android:layout_marginBottom="10dp"
+        android:text="Likes 34"
+        android:textSize="10dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView83"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView26"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="25dp"
+        android:src="@drawable/cancelled_rec"
+        />
+
+
+    <ImageView
+        android:id="@+id/imageVie27"
+        android:layout_width="93dp"
+        android:layout_height="100dp"
+        android:layout_alignStart="@+id/imageView83"
+        android:layout_alignBottom="@+id/imageView83"
+        android:layout_marginStart="22dp"
+        android:layout_marginBottom="13dp"
+        android:src="@drawable/op_j1" />
+
+    <TextView
+        android:id="@+id/textVie73"
+        android:layout_width="85dp"
+        android:layout_height="17dp"
+        android:layout_alignStart="@+id/imageView83"
+        android:layout_alignTop="@+id/imageView83"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="38dp"
+        android:text="Grey Hood"
+        android:fontFamily="@font/garetbold"
+
+        android:textColor="@color/black"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/textVie81"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView83"
+        android:layout_alignBottom="@+id/imageView83"
+        android:layout_marginStart="132dp"
+        android:layout_marginBottom="72dp"
+        android:text="Php 1000"
+        android:textColor="@color/black"
+        android:fontFamily="@font/garetbold"
+
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textVie53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView83"
+        android:layout_alignBottom="@+id/imageView83"
+        android:layout_marginStart="282dp"
+        android:layout_marginBottom="45dp"
+        android:text="Views 123"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/textVie5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textVie53"
+        android:layout_alignStart="@+id/imageView83"
+        android:layout_marginStart="282dp"
+        android:layout_marginBottom="10dp"
+        android:text="Likes 44"
+        android:textSize="10dp" />
+
+
+    <ImageView
+        android:id="@+id/imageVie83"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView83"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="25dp"
+        android:src="@drawable/cancelled_rec" />
+
+
+
+    <ImageView
+        android:id="@+id/imageVi27"
+        android:layout_width="93dp"
+        android:layout_height="100dp"
+        android:layout_alignStart="@+id/imageVie83"
+        android:layout_alignBottom="@+id/imageVie83"
+        android:layout_marginStart="22dp"
+        android:layout_marginBottom="13dp"
+        android:src="@drawable/op_f3" />
+
+    <TextView
+        android:id="@+id/textVi73"
+        android:layout_width="85dp"
+        android:layout_height="17dp"
+        android:layout_alignStart="@+id/imageVie83"
+        android:layout_alignTop="@+id/imageVie83"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="38dp"
+        android:text="Air Force Red"
+        android:fontFamily="@font/garetbold"
+
+        android:textColor="@color/black"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/textVi81"
+        android:fontFamily="@font/garetbold"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageVie83"
+        android:layout_alignBottom="@+id/imageVie83"
+        android:layout_marginStart="132dp"
+        android:layout_marginBottom="72dp"
+        android:text="Php 6175"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textVi53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageVie83"
+        android:layout_alignBottom="@+id/imageVie83"
+        android:layout_marginStart="282dp"
+        android:layout_marginBottom="45dp"
+        android:text="Views 1002"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/textVi5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textVi53"
+        android:layout_alignStart="@+id/imageVie83"
+        android:layout_marginStart="282dp"
+        android:layout_marginBottom="10dp"
+        android:text="Likes 449"
+        android:textSize="10dp" />
+
+    <ImageView
+        android:id="@+id/imageView84"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView26"
+        android:layout_alignBottom="@+id/imageView26"
+        android:layout_marginStart="132dp"
+        android:layout_marginBottom="27dp"
+        android:src="@drawable/divreturn" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView84"
+        android:layout_alignBottom="@+id/imageView26"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="7dp"
+        android:src="@drawable/chatbox" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView26"
+        android:layout_alignBottom="@+id/imageView26"
+        android:layout_marginStart="132dp"
+        android:layout_marginBottom="7dp"
+        android:textSize="9sp"
+        android:text="Reviews 14" />
+
+
+
+    <ImageView
+        android:id="@+id/imageVie84"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView83"
+        android:layout_alignBottom="@+id/imageView83"
+        android:layout_marginStart="132dp"
+        android:layout_marginBottom="27dp"
+        android:src="@drawable/divreturn" />
+
+    <ImageView
+        android:id="@+id/imageVie25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageVie84"
+        android:layout_alignBottom="@+id/imageView83"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="7dp"
+        android:src="@drawable/chatbox" />
+
+    <TextView
+        android:id="@+id/textVie49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView83"
+        android:layout_alignBottom="@+id/imageView83"
+        android:layout_marginStart="132dp"
+        android:layout_marginBottom="7dp"
+        android:textSize="9sp"
+        android:text="Reviews 35" />
+
+
+
+    <ImageView
+        android:id="@+id/imageVi84"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageVie83"
+        android:layout_alignBottom="@+id/imageVie83"
+        android:layout_marginStart="132dp"
+        android:layout_marginBottom="27dp"
+        android:src="@drawable/divreturn" />
+
+    <ImageView
+        android:id="@+id/imageVi25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageVi84"
+        android:layout_alignBottom="@+id/imageVie83"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="7dp"
+        android:src="@drawable/chatbox" />
+
+    <TextView
+        android:id="@+id/textVi49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageVie83"
+        android:layout_alignBottom="@+id/imageVie83"
+        android:layout_marginStart="132dp"
+        android:layout_marginBottom="7dp"
+        android:textSize="9sp"
+        android:text="Reviews 105" />
+</RelativeLayout>

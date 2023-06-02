@@ -18,6 +18,8 @@
         android:layout_marginEnd="118dp"
         android:layout_marginBottom="601dp"
         android:text="Return"
+        android:fontFamily="@font/garetbold"
+
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="17dp" />
@@ -33,6 +35,8 @@
         android:layout_marginTop="94dp"
         android:layout_marginBottom="602dp"
         android:text="Cancelled"
+        android:fontFamily="@font/garetbold"
+
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="17dp" />
@@ -49,7 +53,7 @@
         android:layout_marginBottom="603dp"
         android:text="To Ship"
         android:textAlignment="center"
-
+        android:fontFamily="@font/garetbold"
 
         android:textColor="@color/black"
         android:textSize="17dp" />
@@ -66,6 +70,7 @@
         android:layout_marginEnd="107dp"
         android:text="My Sales"
         android:textAlignment="center"
+        android:fontFamily="@font/garetbold"
 
         android:textColor="@color/black"
         android:textSize="20sp" />
@@ -112,14 +117,15 @@
 
     <TextView
         android:id="@+id/textView23"
-        android:layout_width="62dp"
-        android:layout_height="33dp"
+        android:layout_width="79dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginTop="94dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="602dp"
+        android:fontFamily="@font/garetbold"
         android:text="Review"
 
         android:textAlignment="center"

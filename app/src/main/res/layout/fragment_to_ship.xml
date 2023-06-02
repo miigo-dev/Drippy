@@ -64,6 +64,8 @@
         android:layout_marginStart="87dp"
         android:layout_marginBottom="18dp"
         android:text="Knitted Polo Shirt"
+        android:fontFamily="@font/garetbold"
+
         android:textColor="@color/black"
         android:textSize="12dp" />
 
@@ -139,6 +141,8 @@
         android:layout_marginStart="87dp"
         android:layout_marginBottom="18dp"
         android:text="Floral Dress"
+        android:fontFamily="@font/garetbold"
+
         android:textColor="@color/black"
         android:textSize="12dp"
         />
@@ -297,6 +301,8 @@
         android:layout_marginStart="87dp"
         android:layout_marginBottom="18dp"
         android:text="Oversized Shirt"
+        android:fontFamily="@font/garetbold"
+
         android:textColor="@color/black"
         android:textSize="12dp"
         />

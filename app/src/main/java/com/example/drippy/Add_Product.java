@@ -54,7 +54,7 @@ public class Add_Product extends AppCompatActivity {
         });
 
         back1.setOnClickListener(view -> {
-            Intent intent = new Intent(Add_Product.this, Sell.class);
+            Intent intent = new Intent(Add_Product.this, MyProduct.class);
             startActivity(intent);
         });
         saveBtn.setOnClickListener(view -> {

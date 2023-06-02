@@ -51,6 +51,8 @@
         android:layout_marginStart="87dp"
         android:layout_marginBottom="18dp"
         android:text="Jumper"
+        android:fontFamily="@font/garetbold"
+
         android:textColor="@color/black"
         android:textSize="12dp"
         />

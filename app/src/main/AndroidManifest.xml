@@ -15,6 +15,9 @@
         android:theme="@style/Theme.Drippy"
         tools:targetApi="31">
         <activity
+            android:name=".MyProduct"
+            android:exported="false" />
+        <activity
             android:name=".osRecomm"
             android:exported="false" />
         <activity

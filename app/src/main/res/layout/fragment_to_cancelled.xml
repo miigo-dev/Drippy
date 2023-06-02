@@ -59,13 +59,15 @@
 
     <TextView
         android:id="@+id/textView73"
-        android:layout_width="68dp"
+        android:layout_width="93dp"
         android:layout_height="wrap_content"
         android:layout_alignEnd="@+id/imageView26"
         android:layout_alignBottom="@+id/imageView26"
         android:layout_marginStart="160dp"
-        android:layout_marginEnd="155dp"
-        android:layout_marginBottom="60dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="62dp"
+
+        android:fontFamily="@font/garetbold"
         android:text="Waffle Shirt"
         android:textColor="@color/black"
         android:textSize="12dp" />
