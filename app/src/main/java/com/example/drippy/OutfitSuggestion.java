@@ -1,12 +1,11 @@
 package com.example.drippy;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.annotation.SuppressLint;
 import android.content.Intent;
-import android.media.Image;
 import android.os.Bundle;
 import android.widget.ImageButton;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class OutfitSuggestion extends AppCompatActivity {
 
@@ -23,33 +22,33 @@ public class OutfitSuggestion extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_outfit_suggestion);
 
-        imageBtn = findViewById(R.id.btnPlanning2);
+        imageBtn = findViewById(R.id.btnBack2);
         imageBtn.setOnClickListener(view -> {
-            Intent intent = new Intent(OutfitSuggestion.this, Outfit_Planning.class );
+            Intent intent = new Intent(OutfitSuggestion.this, Wardrobe.class );
             startActivity(intent);
         });
 
-        imageBtn1 = findViewById(R.id.btnWardrobe2);
+        imageBtn1 = findViewById(R.id.imageButton22);
         imageBtn1.setOnClickListener(view -> {
-            Intent intent = new Intent(OutfitSuggestion.this, Wardrobe.class );
+            Intent intent = new Intent(OutfitSuggestion.this, osRecomm.class );
             startActivity(intent);
         });
 
-        imageBtn2 = findViewById(R.id.btnHome2);
+        imageBtn2 = findViewById(R.id.imageButton21);
         imageBtn2.setOnClickListener(view -> {
-            Intent intent = new Intent(OutfitSuggestion.this, Homepage.class );
+            Intent intent = new Intent(OutfitSuggestion.this, osCreme.class );
             startActivity(intent);
         });
 
-        imageBtn3 = findViewById(R.id.btnBack2);
+        imageBtn3 = findViewById(R.id.imageButton23);
         imageBtn3.setOnClickListener(view -> {
-            Intent intent = new Intent(OutfitSuggestion.this, Wardrobe.class );
+            Intent intent = new Intent(OutfitSuggestion.this, osPurple.class );
             startActivity(intent);
         });
 
         imageBtn4 = findViewById(R.id.BnW);
         imageBtn4.setOnClickListener(view -> {
-            Intent intent = new Intent(OutfitSuggestion.this, Os_BNWFragment.class );
+            Intent intent = new Intent(OutfitSuggestion.this, osBW.class );
             startActivity(intent);
         });
 

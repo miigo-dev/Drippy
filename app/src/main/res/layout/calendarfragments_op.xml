@@ -33,6 +33,48 @@
         android:scaleType="fitCenter"
         android:src="@drawable/rectanglecalendar" />
 
+
+
+    <ImageView
+        android:id="@+id/imageView56"
+        android:layout_width="84dp"
+        android:layout_height="75dp"
+        android:layout_alignEnd="@+id/imageButton"
+        android:layout_alignBottom="@+id/imageButton"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="101dp"
+        android:src="@drawable/op_j1" />
+
+    <ImageView
+        android:id="@+id/imageView57"
+        android:layout_width="85dp"
+        android:layout_height="71dp"
+        android:layout_alignEnd="@+id/imageButton"
+        android:layout_alignBottom="@+id/imageButton"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="103dp"
+        android:src="@drawable/op_h3" />
+
+    <ImageView
+        android:id="@+id/imageView58"
+        android:layout_width="83dp"
+        android:layout_height="110dp"
+        android:layout_alignEnd="@+id/imageButton"
+        android:layout_alignBottom="@+id/imageButton"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="3dp"
+        android:src="@drawable/op_p4" />
+
+    <ImageView
+        android:id="@+id/imageView59"
+        android:layout_width="85dp"
+        android:layout_height="80dp"
+        android:layout_alignEnd="@+id/imageButton"
+        android:layout_alignBottom="@+id/imageButton"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/op_f4" />
+
     <ImageView
         android:id="@+id/imageView22"
         android:layout_width="175dp"

@@ -15,6 +15,18 @@
         android:theme="@style/Theme.Drippy"
         tools:targetApi="31">
         <activity
+            android:name=".osRecomm"
+            android:exported="false" />
+        <activity
+            android:name=".osPurple"
+            android:exported="false" />
+        <activity
+            android:name=".osCreme"
+            android:exported="false" />
+        <activity
+            android:name=".osBW"
+            android:exported="false" />
+        <activity
             android:name=".OrderStat"
             android:exported="false" />
         <activity
