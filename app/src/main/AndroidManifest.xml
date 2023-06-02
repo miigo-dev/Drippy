@@ -21,6 +21,9 @@
             android:name=".ShopItem"
             android:exported="false" />
         <activity
+            android:name=".shop_checkout"
+            android:exported="false" />
+        <activity
             android:name=".osRecomm"
             android:exported="false" />
         <activity
