@@ -149,6 +149,25 @@
         app:layout_constraintVertical_bias="0.129" />
 
     <TextView
+        android:id="@+id/tv"
+        android:layout_width="111dp"
+        android:layout_height="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:fontFamily="@font/garet"
+        android:gravity="center"
+        android:text="User"
+        android:textAllCaps="true"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.566"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.085" />
+
+    <TextView
         android:id="@+id/tv1"
         android:layout_width="111dp"
         android:layout_height="15dp"
@@ -156,16 +175,16 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:fontFamily="@font/garet"
-        android:gravity="top"
-        android:text="@string/hello_miguel"
+        android:gravity="center"
+        android:text="Hello,"
         android:textAllCaps="true"
-        android:textSize="9sp"
+        android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.41"
+        app:layout_constraintHorizontal_bias="0.416"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.063" />
+        app:layout_constraintVertical_bias="0.085" />
 
     <ImageButton
         android:id="@+id/btnBack4"
@@ -236,62 +255,43 @@
         app:layout_constraintVertical_bias="0.774"
         app:srcCompat="@drawable/camera" />
 
-    <ImageButton
-        android:id="@+id/btnHome"
-        android:layout_width="43dp"
-        android:layout_height="46dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:background="?attr/selectableItemBackground"
-        android:contentDescription="homeicon"
-        android:scaleType="center"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.195"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.963"
-        app:srcCompat="@drawable/hicon"
-        tools:ignore="TouchTargetSizeCheck" />
-
-    <ImageButton
-        android:id="@+id/btnWardrobe"
-        android:layout_width="42dp"
-        android:layout_height="44dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:autofillHints="asd"
-        android:background="?attr/selectableItemBackground"
-        android:contentDescription="wardrobe"
-        android:scaleType="fitCenter"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.963"
-        app:srcCompat="@drawable/wicon"
-        tools:ignore="TouchTargetSizeCheck" />
-
-    <ImageButton
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/btnPlanning"
-        android:layout_width="43dp"
-        android:layout_height="46dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:background="?attr/selectableItemBackground"
-        android:scaleType="fitCenter"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.59"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.963"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="56dp"
+        android:backgroundTint="@color/black"
+        android:visibility="gone"
+        android:tint="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/btnWardrobe"
+        app:layout_constraintEnd_toStartOf="@+id/btnWardrobe"
         app:srcCompat="@drawable/opicon"
         tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
-    <ImageButton
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/btnSuggestion"
-        android:layout_width="40dp"
-        android:layout_height="45dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="56dp"
+        android:backgroundTint="@color/black"
+        android:contentDescription="suggestion"
+        android:visibility="gone"
+        android:tint="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/btnWardrobe"
+        app:layout_constraintStart_toEndOf="@+id/btnWardrobe"
+        app:srcCompat="@drawable/osicon"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/btnSelling"
+        android:layout_width="35dp"
+        android:layout_height="39dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:background="?attr/selectableItemBackground"
@@ -299,12 +299,29 @@
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.766"
+        app:layout_constraintHorizontal_bias="0.877"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.963"
-        app:srcCompat="@drawable/osicon"
+        app:layout_constraintVertical_bias="0.074"
+        app:srcCompat="@drawable/sellingicon"
         tools:ignore="TouchTargetSizeCheck" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnWardrobe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:clickable="true"
+        android:focusable="true"
+        android:tint="@color/white"
+        app:fabSize="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.968"
+        app:srcCompat="@drawable/wardrobeicons" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

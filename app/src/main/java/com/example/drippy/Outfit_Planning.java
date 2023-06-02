@@ -21,39 +21,20 @@ public class Outfit_Planning extends AppCompatActivity {
     private ViewPageAdapter adapter;
 
     ImageButton imageButton;
-    ImageButton imageButton1;
-    ImageButton imageButton2;
-
-    ImageButton imageButton3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_outfit_planning);
 
-        imageButton = findViewById(R.id.btnHome);
+
+
+        imageButton = findViewById(R.id.btnBack);
         imageButton.setOnClickListener(view -> {
-            Intent intent = new Intent(Outfit_Planning.this, Homepage.class );
-            startActivity(intent);
-        });
-
-        imageButton1 = findViewById(R.id.btnWardrobe);
-        imageButton1.setOnClickListener(view -> {
             Intent intent = new Intent(Outfit_Planning.this, Wardrobe.class );
             startActivity(intent);
         });
 
-        imageButton2 = findViewById(R.id.btnBack);
-        imageButton2.setOnClickListener(view -> {
-            Intent intent = new Intent(Outfit_Planning.this, Wardrobe.class );
-            startActivity(intent);
-        });
-
-        imageButton3 = findViewById(R.id.btnSuggestion);
-        imageButton3.setOnClickListener(view -> {
-            Intent intent = new Intent(Outfit_Planning.this, OutfitSuggestion.class );
-            startActivity(intent);
-        });
 
 
         tabLayout = findViewById(R.id.tablayout);

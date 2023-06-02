@@ -63,7 +63,7 @@
             android:name=".Outfit_Planning"
             android:exported="false" />
         <activity
-            android:name=".Welcome"
+            android:name=".Shop"
             android:exported="false" />
         <activity
             android:name=".Wardrobe"

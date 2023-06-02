@@ -16,7 +16,7 @@ public class Homepage extends AppCompatActivity {
 
         Button btnGetStarted = findViewById(R.id.btnGetStarted);
         btnGetStarted.setOnClickListener(view -> {
-            Intent intent = new Intent(Homepage.this, Wardrobe.class);
+            Intent intent = new Intent(Homepage.this, Shop.class);
             startActivity(intent);
         });
 

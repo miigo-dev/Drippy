@@ -8,34 +8,6 @@
 
 
     <ImageButton
-        android:id="@+id/imageButton36"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="211dp"
-        android:layout_marginTop="640dp"
-        android:layout_marginEnd="5dp"
-        android:background="?attr/selectableItemBackground"
-        android:scaleType="fitCenter"
-        android:src="@drawable/op2_rectangle" />
-
-    <ImageButton
-        android:id="@+id/imageButton34"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="640dp"
-        android:layout_marginEnd="208dp"
-        android:background="?attr/selectableItemBackground"
-        android:scaleType="fitCenter"
-        android:src="@drawable/op2_rectangle" />
-
-    <ImageButton
         android:id="@+id/imageButton31"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -47,7 +19,8 @@
         android:layout_marginEnd="6dp"
         android:background="?attr/selectableItemBackground"
         android:scaleType="fitCenter"
-        android:src="@drawable/op2_rectangle" />
+        android:src="@drawable/op2_rectangle"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
         android:id="@+id/imageButton30"
@@ -61,7 +34,8 @@
         android:layout_marginEnd="209dp"
         android:background="?attr/selectableItemBackground"
         android:scaleType="fitCenter"
-        android:src="@drawable/op2_rectangle" />
+        android:src="@drawable/op2_rectangle"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
         android:id="@+id/btnBack3"
@@ -173,7 +147,8 @@
         android:layout_marginEnd="210dp"
         android:background="?attr/selectableItemBackground"
         android:scaleType="fitCenter"
-        android:src="@drawable/op2_rectangle" />
+        android:src="@drawable/op2_rectangle"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
         android:id="@+id/imageButton26"
@@ -187,7 +162,8 @@
         android:layout_marginEnd="6dp"
         android:background="?attr/selectableItemBackground"
         android:scaleType="fitCenter"
-        android:src="@drawable/op2_rectangle" />
+        android:src="@drawable/op2_rectangle"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageView
         android:id="@+id/imageView60"

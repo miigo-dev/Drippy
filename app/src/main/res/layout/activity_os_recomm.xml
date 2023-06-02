@@ -15,11 +15,12 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="211dp"
-        android:layout_marginTop="640dp"
+        android:layout_marginTop="630dp"
         android:layout_marginEnd="5dp"
         android:background="?attr/selectableItemBackground"
         android:scaleType="fitCenter"
-        android:src="@drawable/op2_rectangle" />
+        android:src="@drawable/op2_rectangle"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
     <ImageButton
         android:id="@+id/imageButton34"
@@ -28,12 +29,13 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="640dp"
-        android:layout_marginEnd="208dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="630dp"
+        android:layout_marginEnd="209dp"
         android:background="?attr/selectableItemBackground"
         android:scaleType="fitCenter"
-        android:src="@drawable/op2_rectangle" />
+        android:src="@drawable/op2_rectangle"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
         android:id="@+id/imageButton31"
@@ -43,11 +45,12 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="210dp"
-        android:layout_marginTop="448dp"
+        android:layout_marginTop="435dp"
         android:layout_marginEnd="6dp"
         android:background="?attr/selectableItemBackground"
         android:scaleType="fitCenter"
-        android:src="@drawable/op2_rectangle" />
+        android:src="@drawable/op2_rectangle"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
         android:id="@+id/imageButton30"
@@ -57,11 +60,12 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="5dp"
-        android:layout_marginTop="448dp"
+        android:layout_marginTop="435dp"
         android:layout_marginEnd="209dp"
         android:background="?attr/selectableItemBackground"
         android:scaleType="fitCenter"
-        android:src="@drawable/op2_rectangle" />
+        android:src="@drawable/op2_rectangle"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
         android:id="@+id/btnBack3"
@@ -169,11 +173,12 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="5dp"
-        android:layout_marginTop="255dp"
+        android:layout_marginTop="240dp"
         android:layout_marginEnd="210dp"
         android:background="?attr/selectableItemBackground"
         android:scaleType="fitCenter"
-        android:src="@drawable/op2_rectangle" />
+        android:src="@drawable/op2_rectangle"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
     <ImageButton
         android:id="@+id/imageButton26"
@@ -183,11 +188,12 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="210dp"
-        android:layout_marginTop="255dp"
+        android:layout_marginTop="240dp"
         android:layout_marginEnd="6dp"
         android:background="?attr/selectableItemBackground"
         android:scaleType="fitCenter"
-        android:src="@drawable/op2_rectangle" />
+        android:src="@drawable/op2_rectangle"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageView
         android:id="@+id/imageView76"
@@ -218,6 +224,26 @@
         android:layout_marginTop="11dp"
         android:layout_marginEnd="20dp"
         android:src="@drawable/os222" />
+
+    <ImageView
+        android:id="@+id/imageView83"
+        android:layout_width="167dp"
+        android:layout_height="162dp"
+        android:layout_alignTop="@+id/imageButton34"
+        android:layout_alignEnd="@+id/imageButton34"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="21dp"
+        android:src="@drawable/os444" />
+
+    <ImageView
+        android:id="@+id/imageView84"
+        android:layout_width="167dp"
+        android:layout_height="162dp"
+        android:layout_alignTop="@+id/imageButton36"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="18dp"
+        android:src="@drawable/os555" />
 
     <ImageView
         android:id="@+id/imageView79"

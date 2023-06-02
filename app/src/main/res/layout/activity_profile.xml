@@ -16,7 +16,8 @@
         android:layout_marginBottom="300dp"
         app:srcCompat="@drawable/profile_rec"
         tools:layout_editor_absoluteX="17dp"
-        tools:layout_editor_absoluteY="146dp" />
+        tools:layout_editor_absoluteY="146dp"
+        tools:ignore="SpeakableTextPresentCheck"/>
 
     <ImageButton
         android:id="@+id/imageButton19"
@@ -29,7 +30,8 @@
         android:background="@color/white"
         app:srcCompat="@drawable/profile_editbio"
         tools:layout_editor_absoluteX="70dp"
-        tools:layout_editor_absoluteY="619dp" />
+        tools:layout_editor_absoluteY="619dp"
+        tools:ignore="SpeakableTextPresentCheck"/>
 
     <TextView
         android:id="@+id/textView45"
@@ -42,7 +44,20 @@
         android:fontFamily="@font/garetbold"
         android:text="Profile"
         android:textColor="@color/black"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        tools:ignore="SpeakableTextPresentCheck"/>
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="357dp"
+        android:background="@color/white"
+        app:srcCompat="@drawable/back"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <ImageButton
         android:id="@+id/imageButton39"
@@ -50,10 +65,11 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="22dp"
+        android:layout_marginTop="55dp"
         android:layout_marginEnd="36dp"
         android:background="@color/white"
-        app:srcCompat="@drawable/profile_settings" />
+        app:srcCompat="@drawable/profile_settings"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <TextView
         android:id="@+id/textView46"
@@ -66,7 +82,8 @@
         android:fontFamily="@font/garetbold"
         android:text="Edit Bio"
         android:textColor="@color/white"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        tools:ignore="SpeakableTextPresentCheck"/>
 
     <ImageButton
         android:id="@+id/imageButton40"
@@ -77,7 +94,8 @@
         android:layout_marginEnd="99dp"
         android:layout_marginBottom="641dp"
         android:background="@color/white"
-        app:srcCompat="@drawable/profile_business" />
+        app:srcCompat="@drawable/profile_business"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <ImageButton
         android:id="@+id/imageButton42"
@@ -88,18 +106,8 @@
         android:layout_marginEnd="212dp"
         android:layout_marginBottom="641dp"
         android:background="@color/white"
-        app:srcCompat="@drawable/profile_user" />
-
-    <ImageButton
-        android:id="@+id/imageButton20"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="22dp"
-        android:layout_marginEnd="357dp"
-        android:background="@color/white"
-        app:srcCompat="@drawable/back" />
+        app:srcCompat="@drawable/profile_user"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <ImageButton
         android:id="@+id/imageButton41"
@@ -110,7 +118,8 @@
         android:layout_marginEnd="215dp"
         android:layout_marginBottom="105dp"
         android:background="@color/white"
-        app:srcCompat="@drawable/prec" />
+        app:srcCompat="@drawable/prec"
+        tools:ignore="SpeakableTextPresentCheck"/>
 
     <ImageButton
         android:id="@+id/imageButton444"
@@ -121,7 +130,8 @@
         android:layout_marginEnd="52dp"
         android:layout_marginBottom="106dp"
         android:background="@color/white"
-        app:srcCompat="@drawable/prec" />
+        app:srcCompat="@drawable/prec"
+        tools:ignore="SpeakableTextPresentCheck"/>
 
     <ImageView
         android:id="@+id/imageView81"
@@ -131,7 +141,8 @@
         android:layout_alignEnd="@+id/imageButton444"
         android:layout_marginTop="3dp"
         android:layout_marginEnd="4dp"
-        app:srcCompat="@drawable/bag" />
+        app:srcCompat="@drawable/bag"
+        tools:ignore="SpeakableTextPresentCheck"/>
 
     <ImageView
         android:id="@+id/imageView82"
@@ -141,7 +152,8 @@
         android:layout_alignBottom="@+id/imageButton41"
         android:layout_marginEnd="3dp"
         android:layout_marginBottom="9dp"
-        app:srcCompat="@drawable/op_s1" />
+        app:srcCompat="@drawable/op_s1"
+        tools:ignore="SpeakableTextPresentCheck"/>
 
     <TextView
         android:id="@+id/textView38"
@@ -152,7 +164,8 @@
         android:layout_marginEnd="125dp"
         android:layout_marginBottom="269dp"
         android:fontFamily="@font/garet"
-        android:text="Likes" />
+        android:text="Likes"
+        tools:ignore="SpeakableTextPresentCheck"/>
 
     <TextView
         android:id="@+id/textView39"
@@ -163,7 +176,8 @@
         android:layout_marginEnd="228dp"
         android:layout_marginBottom="268dp"
         android:fontFamily="@font/garet"
-        android:text="Following" />
+        android:text="Following"
+        tools:ignore="SpeakableTextPresentCheck"/>
 
     <ImageView
         android:id="@+id/imageView80"
@@ -173,7 +187,8 @@
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="128dp"
         android:layout_marginBottom="162dp"
-        app:srcCompat="@drawable/profpic2" />
+        app:srcCompat="@drawable/profpic2"
+        tools:ignore="SpeakableTextPresentCheck"/>
 
     <ImageButton
         android:id="@+id/imageButton38"
@@ -184,7 +199,8 @@
         android:layout_marginEnd="116dp"
         android:layout_marginBottom="181dp"
         android:background="@color/white"
-        app:srcCompat="@drawable/profile_edit" />
+        app:srcCompat="@drawable/profile_edit"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
 
 </RelativeLayout>

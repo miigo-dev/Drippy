@@ -1,8 +1,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.Drippy" parent="Theme.AppCompat.Light.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <item name="android:windowAnimationStyle">@style/animation</item>
+
     </style>
 
     <style name="Theme.Drippy" parent="Base.Theme.Drippy" />
@@ -15,4 +16,12 @@
     <style name="Theme.Drippy.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.Drippy.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="animation">
+
+        <item  name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+
+    </style>>
 </resources>
