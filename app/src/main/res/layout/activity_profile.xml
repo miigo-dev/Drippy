@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile">
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="274dp"
+        app:srcCompat="@drawable/profile_rec"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="146dp" />
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView29"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="155dp"
+        app:srcCompat="@drawable/profile_pic"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="75dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="36dp"
+        android:background="@color/white"
+        app:srcCompat="@drawable/profile_editbio"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="619dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView29"
+        android:layout_alignBottom="@+id/imageView29"
+        android:layout_marginEnd="106dp"
+        android:layout_marginBottom="175dp"
+        android:background="@color/white"
+        app:srcCompat="@drawable/profile_edit" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="170dp"
+        android:layout_marginBottom="681dp"
+        android:fontFamily="@font/garetbold"
+        android:text="Profile"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/imageButton39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="36dp"
+        android:background="@color/white"
+        app:srcCompat="@drawable/profile_settings" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageButton19"
+        android:layout_alignBottom="@+id/imageButton19"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="13dp"
+        android:fontFamily="@font/garetbold"
+        android:text="Edit Bio"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/imageButton40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="98dp"
+        android:layout_marginBottom="635dp"
+        android:background="@color/white"
+        app:srcCompat="@drawable/profile_business" />
+
+    <ImageButton
+        android:id="@+id/imageButton42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="212dp"
+        android:layout_marginBottom="635dp"
+        android:background="@color/white"
+        app:srcCompat="@drawable/profile_user" />
+
+
+</RelativeLayout>

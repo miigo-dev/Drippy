@@ -27,6 +27,9 @@
             android:name=".osBW"
             android:exported="false" />
         <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
             android:name=".OrderStat"
             android:exported="false" />
         <activity
