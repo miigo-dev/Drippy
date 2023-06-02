@@ -50,9 +50,7 @@
         android:layout_alignBottom="@+id/imageView218"
         android:layout_marginStart="87dp"
         android:layout_marginBottom="18dp"
-        android:text="Cap"
-        android:fontFamily="@font/garetbold"
-
+        android:text="Jumper"
         android:textColor="@color/black"
         android:textSize="12dp"
         />
@@ -65,7 +63,7 @@
         android:layout_alignBottom="@+id/imageView218"
         android:layout_marginStart="87dp"
         android:layout_marginBottom="9dp"
-        android:text="variation: Red/L"
+        android:text="variation: Black/L"
         android:textSize="6dp" />
 
     <TextView
@@ -134,7 +132,7 @@
 
     <ImageView
         android:id="@+id/imageView221"
-        android:layout_width="57dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/imageView218"
         android:layout_alignTop="@+id/imageView218"
@@ -142,7 +140,8 @@
         android:layout_marginStart="12dp"
         android:layout_marginTop="5dp"
         android:layout_marginBottom="5dp"
-        android:src="@drawable/op_h1" />
+        android:src="@drawable/bbx"
+        />
 
     <TextView
         android:id="@+id/textView52"
