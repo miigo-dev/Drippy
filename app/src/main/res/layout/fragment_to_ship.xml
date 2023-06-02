@@ -63,7 +63,9 @@
         android:layout_alignBottom="@+id/imageView21"
         android:layout_marginStart="87dp"
         android:layout_marginBottom="18dp"
-        android:text="Knitted Polo Shirt"
+        android:text="Nike Shoes"
+        android:fontFamily="@font/garetbold"
+
         android:textColor="@color/black"
         android:textSize="12dp" />
 
@@ -75,7 +77,7 @@
         android:layout_alignBottom="@+id/imageView21"
         android:layout_marginStart="87dp"
         android:layout_marginBottom="9dp"
-        android:text="variation: White/S"
+        android:text="variation: Blue/39"
         android:textSize="6dp" />
 
     <TextView
@@ -102,7 +104,7 @@
         android:layout_marginEnd="107dp"
         android:layout_marginBottom="29dp"
         android:textSize="10dp"
-        android:text="Php 800.75" />
+        android:text="Php 2000.75" />
 
     <TextView
         android:id="@+id/textView33"
@@ -138,7 +140,9 @@
         android:layout_alignBottom="@+id/imageView2"
         android:layout_marginStart="87dp"
         android:layout_marginBottom="18dp"
-        android:text="Floral Dress"
+        android:text="Converse "
+        android:fontFamily="@font/garetbold"
+
         android:textColor="@color/black"
         android:textSize="12dp"
         />
@@ -151,7 +155,7 @@
         android:layout_alignBottom="@+id/imageView2"
         android:layout_marginStart="87dp"
         android:layout_marginBottom="9dp"
-        android:text="variation: 21/L"
+        android:text="variation: Sky Blue/41"
         android:textSize="6dp" />
 
     <TextView
@@ -178,7 +182,7 @@
         android:layout_marginEnd="107dp"
         android:layout_marginBottom="29dp"
         android:textSize="10dp"
-        android:text="Php 509.35" />
+        android:text="Php 5000.35" />
 
     <TextView
         android:id="@+id/textView337"
@@ -297,6 +301,8 @@
         android:layout_marginStart="87dp"
         android:layout_marginBottom="18dp"
         android:text="Oversized Shirt"
+        android:fontFamily="@font/garetbold"
+
         android:textColor="@color/black"
         android:textSize="12dp"
         />
@@ -378,7 +384,7 @@
 
     <ImageView
         android:id="@+id/imageView20"
-        android:layout_width="wrap_content"
+        android:layout_width="58dp"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/imageView21"
         android:layout_alignTop="@+id/imageView21"
@@ -386,12 +392,11 @@
         android:layout_marginStart="12dp"
         android:layout_marginTop="5dp"
         android:layout_marginBottom="5dp"
-        android:src="@drawable/bbx"
-        />
+        android:src="@drawable/op_f1" />
 
     <ImageView
         android:id="@+id/imageView2021"
-        android:layout_width="wrap_content"
+        android:layout_width="62dp"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/imageView2"
         android:layout_alignTop="@+id/imageView2"
@@ -399,12 +404,11 @@
         android:layout_marginStart="12dp"
         android:layout_marginTop="5dp"
         android:layout_marginBottom="5dp"
-        android:src="@drawable/bbx"
-        />
+        android:src="@drawable/op_f4" />
 
     <ImageView
         android:id="@+id/imageView221"
-        android:layout_width="wrap_content"
+        android:layout_width="66dp"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/imageView218"
         android:layout_alignTop="@+id/imageView218"
@@ -412,6 +416,5 @@
         android:layout_marginStart="12dp"
         android:layout_marginTop="5dp"
         android:layout_marginBottom="5dp"
-        android:src="@drawable/bbx"
-        />
+        android:src="@drawable/op_s2" />
 </RelativeLayout>

@@ -58,7 +58,7 @@ public class Sell extends AppCompatActivity {
 
         
         myProduct.setOnClickListener(view -> {
-            Intent intent = new Intent(Sell.this, Add_Product.class);
+            Intent intent = new Intent(Sell.this, MyProduct.class);
             startActivity(intent);
         });
         rating.setOnClickListener(view -> {

@@ -26,6 +26,7 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="23dp"
         android:layout_marginEnd="207dp"
+        android:fontFamily="@font/garetbold"
         android:text="Add Product"
         android:textColor="@color/black"
         android:textSize="23dp" />
@@ -64,6 +65,7 @@
         android:layout_alignParentStart="true"
         android:layout_marginStart="15dp"
         android:layout_marginBottom="66dp"
+        android:fontFamily="@font/garetbold"
         android:text="Product Name"
         android:textColor="@color/black"
         android:textSize="10dp" />
@@ -76,6 +78,7 @@
         android:layout_alignParentStart="true"
         android:layout_marginStart="15dp"
         android:layout_marginTop="11dp"
+        android:fontFamily="@font/garetbold"
         android:text="Product Description"
         android:textColor="@color/black"
         android:textSize="10dp" />
@@ -153,6 +156,7 @@
         android:background="@color/white"
         android:ems="10"
         android:hint="Price"
+        android:fontFamily="@font/garetbold"
         android:inputType="number"
         android:textColor="@color/black"
         android:textColorHint="@color/black"
@@ -171,6 +175,8 @@
         android:background="@color/white"
         android:ems="10"
         android:hint="Stack"
+        android:fontFamily="@font/garetbold"
+
         android:inputType="number"
         android:textColor="@color/black"
         android:textColorHint="@color/black"
@@ -209,6 +215,8 @@
         android:layout_marginTop="9dp"
         android:layout_marginBottom="7dp"
         android:text="Category/Variation"
+        android:fontFamily="@font/garetbold"
+
         android:textColor="@color/black"
         android:textSize="10dp" />
 
@@ -233,6 +241,8 @@
         android:layout_marginStart="37dp"
         android:layout_marginTop="6dp"
         android:layout_marginBottom="5dp"
+        android:fontFamily="@font/garetbold"
+
         android:text="Shipping"
         android:textColor="@color/black"
         android:textSize="10dp" />
@@ -260,6 +270,7 @@
         android:background="@color/white"
         android:textColor="@color/black"
         android:textSize="10dp"
+        android:fontFamily="@font/garetbold"
         android:layout_marginBottom="4dp"
         android:text="Condition" />
 
