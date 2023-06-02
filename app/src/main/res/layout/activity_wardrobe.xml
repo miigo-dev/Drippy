@@ -37,8 +37,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.105"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/searchView"
-        app:layout_constraintVertical_bias="0.247"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.321"
         tools:text="Recently added" />
 
     <ImageView
@@ -132,22 +132,21 @@
 
     <TextView
         android:id="@+id/tv2"
-        android:layout_width="111dp"
-        android:layout_height="22dp"
+        android:layout_width="165dp"
+        android:layout_height="39dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:fontFamily="@font/garetbold"
-        android:gravity="top"
+        android:gravity="center"
         android:text="@string/welcome_back"
         android:textColor="@color/black"
-        android:textSize="12sp"
+        android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.052"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.052" />
+        app:layout_constraintVertical_bias="0.129" />
 
     <TextView
         android:id="@+id/tv1"
@@ -163,10 +162,25 @@
         android:textSize="9sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintHorizontal_bias="0.41"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.022" />
+        app:layout_constraintVertical_bias="0.063" />
+
+    <ImageButton
+        android:id="@+id/btnBack4"
+        android:layout_width="22dp"
+        android:layout_height="21dp"
+        android:background="?attr/selectableItemBackground"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.08"
+        app:srcCompat="@drawable/back"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <TextView
         android:id="@+id/recently"
@@ -180,59 +194,10 @@
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.195" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="380dp"
-        android:layout_height="54dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.516"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.087"
-        app:srcCompat="@drawable/searchbarbg" />
-
-    <SearchView
-        android:id="@+id/searchView"
-        android:layout_width="304dp"
-        android:layout_height="30dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:background="@drawable/radius"
-        android:backgroundTint="@color/white"
-        android:fontFamily="@font/garet"
-        android:iconifiedByDefault="false"
-        android:queryHint="What are you looking for?"
-        android:searchIcon="@drawable/searchicon"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.28"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.101">
-
-    </SearchView>
-
-    <ImageView
-        android:id="@+id/imageFilterView"
-        android:layout_width="30dp"
-        android:layout_height="27dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.892"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.105"
-        app:srcCompat="@drawable/filter" />
+        app:layout_constraintVertical_bias="0.193" />
 
     <ImageButton
         android:id="@+id/edit_list"
@@ -271,18 +236,6 @@
         app:layout_constraintVertical_bias="0.774"
         app:srcCompat="@drawable/camera" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/rectanglebg" />
-
     <ImageButton
         android:id="@+id/btnHome"
         android:layout_width="43dp"
@@ -313,8 +266,6 @@
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.364"
-        app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.963"
         app:srcCompat="@drawable/wicon"
@@ -354,61 +305,6 @@
         app:layout_constraintVertical_bias="0.963"
         app:srcCompat="@drawable/osicon"
         tools:ignore="TouchTargetSizeCheck" />
-
-    <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="30dp"
-        android:layout_height="22dp"
-        android:background="?attr/selectableItemBackground"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.208"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.982"
-        app:srcCompat="@drawable/circle"
-        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
-
-    <ImageButton
-        android:id="@+id/imageButton6"
-        android:layout_width="30dp"
-        android:layout_height="22dp"
-        android:layout_marginEnd="230dp"
-        android:background="?attr/selectableItemBackground"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.982"
-        app:srcCompat="@drawable/blackcircle"
-        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
-
-    <ImageButton
-        android:id="@+id/imageButton3"
-        android:layout_width="30dp"
-        android:layout_height="22dp"
-        android:background="?attr/selectableItemBackground"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.588"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.982"
-        app:srcCompat="@drawable/circle"
-        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
-
-    <ImageButton
-        android:id="@+id/imageButton4"
-        android:layout_width="30dp"
-        android:layout_height="22dp"
-        android:background="?attr/selectableItemBackground"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.76"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.982"
-        app:srcCompat="@drawable/circle"
-        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

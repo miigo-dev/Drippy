@@ -219,7 +219,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.257"
         app:srcCompat="@drawable/os_blackrec"
-        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"/>
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <ImageButton
         android:id="@+id/imageButton22"
@@ -257,13 +257,69 @@
         android:layout_height="62dp"
         android:background="?attr/selectableItemBackground"
         android:fontFamily="@font/garetbold"
-        android:textAlignment="gravity"
+        android:gravity="center"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.794" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="280dp"
+        android:fontFamily="@font/garetbold"
+        android:text="Black and White"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="540dp"
+        android:fontFamily="@font/garetbold"
+        android:text="My go-to Outfit"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="70dp"
+        android:fontFamily="@font/garetbold"
+        android:text="Aesthetic"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="540dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/garetbold"
+        android:text="Recommendations"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
