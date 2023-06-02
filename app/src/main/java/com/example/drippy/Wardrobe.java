@@ -71,7 +71,7 @@ public class Wardrobe extends AppCompatActivity {
 
         imageButton = findViewById(R.id.camera);
 
-        imgBtn = findViewById(R.id.btnPlanning);
+
         ImageButton btnBack4 = findViewById(R.id.btnBack4);
 
         btnBack4.setOnClickListener(view -> {
@@ -79,7 +79,7 @@ public class Wardrobe extends AppCompatActivity {
             startActivity(intent);
         });
 
-
+        imgBtn = findViewById(R.id.btnPlanning);
         imgBtn.setOnClickListener(view -> {
             Intent intent = new Intent(Wardrobe.this, Outfit_Planning.class);
             startActivity(intent);
@@ -92,6 +92,11 @@ public class Wardrobe extends AppCompatActivity {
             startActivity(intent);
         });
 
+        ImageButton imgbtn3 = findViewById(R.id.btnSelling);
+        imgbtn3.setOnClickListener(view -> {
+            Intent intent = new Intent(Wardrobe.this, Sell.class);
+            startActivity(intent);
+        });
 
         imgBtn2 = findViewById(R.id.btnBack4);
 
@@ -99,6 +104,7 @@ public class Wardrobe extends AppCompatActivity {
             Intent intent = new Intent(Wardrobe.this, Shop.class);
             startActivity(intent);
         });
+
 
 
         imageButton.setOnClickListener(new View.OnClickListener() {
