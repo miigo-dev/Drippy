@@ -189,5 +189,45 @@
         android:scaleType="fitCenter"
         android:src="@drawable/op2_rectangle" />
 
+    <ImageView
+        android:id="@+id/imageView76"
+        android:layout_width="167dp"
+        android:layout_height="175dp"
+        android:layout_alignTop="@+id/imageButton25"
+        android:layout_alignEnd="@+id/imageButton25"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="14dp"
+        android:src="@drawable/os1" />
+
+    <ImageView
+        android:id="@+id/imageView77"
+        android:layout_width="166dp"
+        android:layout_height="171dp"
+        android:layout_alignTop="@+id/imageButton26"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="19dp"
+        android:src="@drawable/os111" />
+
+    <ImageView
+        android:id="@+id/imageView78"
+        android:layout_width="167dp"
+        android:layout_height="162dp"
+        android:layout_alignTop="@+id/imageButton30"
+        android:layout_alignEnd="@+id/imageButton30"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/os222" />
+
+    <ImageView
+        android:id="@+id/imageView79"
+        android:layout_width="167dp"
+        android:layout_height="189dp"
+        android:layout_alignTop="@+id/imageButton31"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/os2" />
+
 
 </RelativeLayout>
