@@ -106,15 +106,15 @@
 
     <TextView
         android:id="@+id/rateName"
-        android:layout_width="78dp"
-        android:layout_height="wrap_content"
+        android:layout_width="71dp"
+        android:layout_height="24dp"
         android:layout_below="@+id/rating"
-        android:layout_marginStart="64dp"
+        android:layout_alignParentEnd="true"
         android:layout_marginTop="9dp"
-        android:layout_toEndOf="@+id/productName"
+        android:layout_marginEnd="103dp"
+
         android:fontFamily="@font/garetbold"
         android:text="Shop Rate"
-
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="9sp"
