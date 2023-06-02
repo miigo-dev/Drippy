@@ -17,6 +17,7 @@
         android:layout_marginStart="11dp"
         android:layout_marginTop="1dp"
         android:layout_marginEnd="10dp"
+
         android:src="@drawable/orderbox"
 
         />
@@ -50,7 +51,9 @@
         android:layout_alignBottom="@+id/imageView218"
         android:layout_marginStart="87dp"
         android:layout_marginBottom="18dp"
-        android:text="Jumper"
+        android:text="Hood"
+        android:fontFamily="@font/garetbold"
+
         android:textColor="@color/black"
         android:textSize="12dp"
         />
@@ -63,7 +66,7 @@
         android:layout_alignBottom="@+id/imageView218"
         android:layout_marginStart="87dp"
         android:layout_marginBottom="9dp"
-        android:text="variation: Black/L"
+        android:text="variation: Grey/L"
         android:textSize="6dp" />
 
     <TextView
@@ -89,7 +92,7 @@
         android:layout_marginTop="41dp"
         android:layout_marginEnd="170dp"
         android:layout_marginBottom="15dp"
-        android:text="Php 305.25"
+        android:text="Php 1005.25"
         android:textSize="10dp" />
 
     <TextView
@@ -132,7 +135,7 @@
 
     <ImageView
         android:id="@+id/imageView221"
-        android:layout_width="wrap_content"
+        android:layout_width="65dp"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/imageView218"
         android:layout_alignTop="@+id/imageView218"
@@ -140,8 +143,7 @@
         android:layout_marginStart="12dp"
         android:layout_marginTop="5dp"
         android:layout_marginBottom="5dp"
-        android:src="@drawable/bbx"
-        />
+        android:src="@drawable/op_j1" />
 
     <TextView
         android:id="@+id/textView52"
