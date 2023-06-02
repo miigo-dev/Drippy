@@ -41,5 +41,6 @@
 
     //Outfit Suggestions
     <string name="suggestion">Outfit Suggestions</string>
+    <string name="DescriptionTitle">Description</string>
 
 </resources>
