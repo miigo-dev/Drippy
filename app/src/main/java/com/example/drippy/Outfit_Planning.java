@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
 import androidx.viewpager2.widget.ViewPager2;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -22,6 +23,9 @@ public class Outfit_Planning extends AppCompatActivity {
 
     ImageButton imageButton;
 
+    ImageButton imageButton1;
+
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,6 +39,11 @@ public class Outfit_Planning extends AppCompatActivity {
             startActivity(intent);
         });
 
+        imageButton1 = findViewById(R.id.btnHome1);
+        imageButton1.setOnClickListener(view -> {
+            Intent intent = new Intent(Outfit_Planning.this, Homepage.class );
+            startActivity(intent);
+        });
 
 
         tabLayout = findViewById(R.id.tablayout);

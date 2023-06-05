@@ -48,20 +48,9 @@ public class Wardrobe extends AppCompatActivity {
         planning = findViewById(R.id.btnPlanning);
         suggestion = findViewById(R.id.btnSuggestion);
 
-        wardrobe.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if(aBoolean){
-                    planning.show();
-                    suggestion.show();
-                    aBoolean = false;
-
-                }else {
-                    planning.hide();
-                    suggestion.hide();
-                    aBoolean = true;
-                }
-            }
+        wardrobe.setOnClickListener(view -> {
+            Intent intent = new Intent(Wardrobe.this, Homepage.class);
+            startActivity(intent);
         });
 
 

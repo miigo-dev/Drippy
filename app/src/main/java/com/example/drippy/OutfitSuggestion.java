@@ -16,6 +16,8 @@ public class OutfitSuggestion extends AppCompatActivity {
 
     ImageButton imageBtn4;
 
+    ImageButton imageBtn5;
+
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,6 +51,12 @@ public class OutfitSuggestion extends AppCompatActivity {
         imageBtn4 = findViewById(R.id.BnW);
         imageBtn4.setOnClickListener(view -> {
             Intent intent = new Intent(OutfitSuggestion.this, osBW.class );
+            startActivity(intent);
+        });
+
+        imageBtn5 = findViewById(R.id.btnHome2);
+        imageBtn5.setOnClickListener(view -> {
+            Intent intent = new Intent(OutfitSuggestion.this, Homepage.class );
             startActivity(intent);
         });
 
