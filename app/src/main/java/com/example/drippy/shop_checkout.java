@@ -1,8 +1,8 @@
 package com.example.drippy;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class shop_checkout extends AppCompatActivity {
 

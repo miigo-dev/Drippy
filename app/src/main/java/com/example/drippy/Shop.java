@@ -1,18 +1,15 @@
 package com.example.drippy;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageButton;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 public class Shop extends AppCompatActivity {
 
-    ImageButton imgbtn;
-    ImageButton imgbtn1;
-    ImageButton imgbtn2;
-    ImageButton imgbtn3;
+    ImageButton imgbtn, imgbtn1, imgbtn2, imgbtn3, imageButton17;
 
 
 
@@ -43,6 +40,12 @@ public class Shop extends AppCompatActivity {
         imgbtn3 = findViewById(R.id.btnProfile);
         imgbtn3.setOnClickListener(view -> {
             Intent intent = new Intent(Shop.this, Profile.class );
+            startActivity(intent);
+        });
+
+        imageButton17 = findViewById(R.id.imageButton17);
+        imageButton17.setOnClickListener(view -> {
+            Intent intent = new Intent(Shop.this, ShopItem.class );
             startActivity(intent);
         });
     }
