@@ -41,7 +41,7 @@ public class shop_checkout extends AppCompatActivity {
         removeItem.setOnClickListener(view -> {
             if (itemCount >= 1) {
                 itemCount--;
-                totalPrice = itemPrice * Math.pow(itemCount, 2);
+                totalPrice = itemPrice * Math.pow(itemCount, 1);
                 numOfItems.setText(itemCount + " item" + (itemCount > 0 ? "s" : ""));
                 total.setText("P" + df.format(totalPrice));
             }
