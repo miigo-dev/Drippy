@@ -1,99 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Profile">
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="230dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="468dp"
+        android:background="@drawable/inputbg"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/garetbold"
+        android:text="LOGOUT"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.264"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView29"
         android:layout_width="393dp"
         android:layout_height="274dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="7dp"
-        android:layout_marginBottom="300dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="271dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/profile_rec"
-        tools:layout_editor_absoluteX="17dp"
-        tools:layout_editor_absoluteY="146dp"
-        tools:ignore="SpeakableTextPresentCheck"/>
+        tools:ignore="SpeakableTextPresentCheck" />
 
-    <ImageButton
-        android:id="@+id/imageButton19"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="78dp"
-        android:layout_marginBottom="20dp"
-        android:background="@color/white"
-        app:srcCompat="@drawable/profile_editbio"
-        tools:layout_editor_absoluteX="70dp"
-        tools:layout_editor_absoluteY="619dp"
-        tools:ignore="SpeakableTextPresentCheck"/>
+    <ImageView
+        android:id="@+id/imageView80"
+        android:layout_width="154dp"
+        android:layout_height="154dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="170dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/profpic2"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/textView45"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="170dp"
-        android:layout_marginBottom="681dp"
+        android:layout_marginTop="80dp"
         android:fontFamily="@font/garetbold"
         android:text="Profile"
         android:textColor="@color/black"
         android:textSize="20sp"
-        tools:ignore="SpeakableTextPresentCheck"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
         android:id="@+id/btnBack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="55dp"
-        android:layout_marginEnd="357dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
         android:background="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/back"
         tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
-
-    <ImageButton
-        android:id="@+id/imageButton39"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="55dp"
-        android:layout_marginEnd="36dp"
-        android:background="@color/white"
-        app:srcCompat="@drawable/profile_settings"
-        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
-
-    <TextView
-        android:id="@+id/textView46"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/imageButton19"
-        android:layout_alignBottom="@+id/imageButton19"
-        android:layout_marginEnd="84dp"
-        android:layout_marginBottom="13dp"
-        android:fontFamily="@font/garetbold"
-        android:text="Edit Bio"
-        android:textColor="@color/white"
-        android:textSize="20sp"
-        tools:ignore="SpeakableTextPresentCheck"/>
 
     <ImageButton
         android:id="@+id/imageButton40"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="99dp"
-        android:layout_marginBottom="641dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="93dp"
         android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/profile_business"
         tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
@@ -101,106 +87,86 @@
         android:id="@+id/imageButton42"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="212dp"
-        android:layout_marginBottom="641dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="120dp"
         android:background="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/profile_user"
         tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
-
-    <ImageButton
-        android:id="@+id/imageButton41"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="215dp"
-        android:layout_marginBottom="105dp"
-        android:background="@color/white"
-        app:srcCompat="@drawable/prec"
-        tools:ignore="SpeakableTextPresentCheck"/>
 
     <ImageButton
         android:id="@+id/imageButton444"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="52dp"
-        android:layout_marginBottom="106dp"
+        android:layout_marginTop="597dp"
+        android:layout_marginEnd="42dp"
         android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/prec"
-        tools:ignore="SpeakableTextPresentCheck"/>
+        tools:ignore="SpeakableTextPresentCheck" />
 
-    <ImageView
-        android:id="@+id/imageView81"
-        android:layout_width="123dp"
-        android:layout_height="140dp"
-        android:layout_alignTop="@+id/imageButton444"
-        android:layout_alignEnd="@+id/imageButton444"
-        android:layout_marginTop="3dp"
-        android:layout_marginEnd="4dp"
-        app:srcCompat="@drawable/bag"
-        tools:ignore="SpeakableTextPresentCheck"/>
+    <ImageButton
+        android:id="@+id/imageButton16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="597dp"
+        android:background="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/prec"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageView
         android:id="@+id/imageView82"
-        android:layout_width="134dp"
-        android:layout_height="136dp"
-        android:layout_alignEnd="@+id/imageButton41"
-        android:layout_alignBottom="@+id/imageButton41"
-        android:layout_marginEnd="3dp"
-        android:layout_marginBottom="9dp"
+        android:layout_width="138dp"
+        android:layout_height="151dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="596dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/op_s1"
-        tools:ignore="SpeakableTextPresentCheck"/>
-
-    <TextView
-        android:id="@+id/textView38"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="125dp"
-        android:layout_marginBottom="269dp"
-        android:fontFamily="@font/garet"
-        android:text="Likes"
-        tools:ignore="SpeakableTextPresentCheck"/>
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/textView39"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="228dp"
-        android:layout_marginBottom="268dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="562dp"
         android:fontFamily="@font/garet"
         android:text="Following"
-        tools:ignore="SpeakableTextPresentCheck"/>
+        app:layout_constraintBottom_toTopOf="@+id/imageButton16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="SpeakableTextPresentCheck" />
 
-    <ImageView
-        android:id="@+id/imageView80"
-        android:layout_width="154dp"
-        android:layout_height="154dp"
-        android:layout_alignBottom="@+id/imageView29"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="128dp"
-        android:layout_marginBottom="162dp"
-        app:srcCompat="@drawable/profpic2"
-        tools:ignore="SpeakableTextPresentCheck"/>
-
-    <ImageButton
-        android:id="@+id/imageButton38"
+    <TextView
+        android:id="@+id/textView38"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/imageView29"
-        android:layout_alignBottom="@+id/imageView29"
-        android:layout_marginEnd="116dp"
-        android:layout_marginBottom="181dp"
-        android:background="@color/white"
-        app:srcCompat="@drawable/profile_edit"
-        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+        android:layout_marginTop="562dp"
+        android:layout_marginEnd="92dp"
+        android:fontFamily="@font/garet"
+        android:text="Likes"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton444"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="SpeakableTextPresentCheck" />
 
+    <ImageView
+        android:id="@+id/imageView81"
+        android:layout_width="138dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="597dp"
+        android:layout_marginEnd="41dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bag"
+        tools:ignore="SpeakableTextPresentCheck" />
 
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

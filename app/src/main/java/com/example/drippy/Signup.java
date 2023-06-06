@@ -12,14 +12,13 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class Signup extends AppCompatActivity {
 
     EditText editTextEmail, editTextPassword, editTextUsername;
-    TextView error;
     FirebaseAuth mAuth;
 
-    /*
     @Override
     public void onStart() {
         super.onStart();
@@ -28,7 +27,6 @@ public class Signup extends AppCompatActivity {
             startActivity(new Intent(Signup.this, Homepage.class));
         }
     }
-     */
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

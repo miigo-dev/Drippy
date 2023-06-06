@@ -19,7 +19,6 @@ public class Login extends AppCompatActivity {
 
     FirebaseAuth mAuth;
 
-    /*
     @Override
     public void onStart() {
         super.onStart();
@@ -28,8 +27,6 @@ public class Login extends AppCompatActivity {
             startActivity(new Intent(Login.this, Homepage.class));
         }
     }
-
-     */
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
