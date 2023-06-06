@@ -2,7 +2,6 @@ package com.example.drippy;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
@@ -15,8 +14,6 @@ public class Profile extends AppCompatActivity {
     ImageButton imgbtn;
     Button btnLogout;
 
-
-    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,8 +27,10 @@ public class Profile extends AppCompatActivity {
 
         btnLogout = findViewById(R.id.btnLogout);
         btnLogout.setOnClickListener(view -> {
+            FirebaseAuth.getInstance().signOut();
             Intent intent = new Intent(Profile.this, Login.class);
             startActivity(intent);
         });
     }
+
 }
