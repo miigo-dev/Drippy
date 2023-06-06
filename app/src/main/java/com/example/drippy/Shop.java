@@ -4,14 +4,15 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageButton;
+import android.widget.ImageView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Shop extends AppCompatActivity {
 
     ImageButton imgbtn, imgbtn1, imgbtn2, imgbtn3, imageButton17;
-
-
+    ImageView btnSearch, btnCart;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -48,6 +49,14 @@ public class Shop extends AppCompatActivity {
             Intent intent = new Intent(Shop.this, ShopItem.class );
             startActivity(intent);
         });
-    }
 
+        btnSearch = findViewById(R.id.btnSearch);
+        btnSearch.setOnClickListener(view -> Toast.makeText(Shop.this, "Unavailable", Toast.LENGTH_SHORT).show());
+
+        btnCart = findViewById(R.id.btnShoppingBag);
+        btnCart.setOnClickListener(view -> {
+            Intent intent = new Intent(Shop.this, shop_checkout.class );
+            startActivity(intent);
+        });
+    }
 }
