@@ -165,7 +165,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="184dp"
         android:layout_marginEnd="212dp"
-        android:background="@color/white"
+        android:background="?attr/selectableItemBackground"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/shop_rec1" />
@@ -176,7 +176,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="396dp"
         android:layout_marginEnd="24dp"
-        android:background="@color/white"
+        android:background="?attr/selectableItemBackground"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/shop_rec3" />
@@ -187,7 +187,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="440dp"
-        android:background="@color/white"
+        android:background="?attr/selectableItemBackground"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/shop_rec4" />
@@ -208,7 +208,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="184dp"
         android:layout_marginEnd="24dp"
-        android:background="@color/white"
+        android:background="?attr/selectableItemBackground"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/shop_rec2" />
