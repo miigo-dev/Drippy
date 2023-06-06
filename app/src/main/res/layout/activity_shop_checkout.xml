@@ -7,13 +7,37 @@
     tools:context=".shop_checkout">
 
     <ImageView
-        android:id="@+id/imageView92"
+        android:id="@+id/imageView96"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="632dp"
+        android:layout_marginTop="328dp"
+        android:layout_marginEnd="124dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/op_bottomrectangle" />
+        app:srcCompat="@drawable/co_textinput" />
+
+    <ImageView
+        android:id="@+id/backBtnItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back" />
+
+    <ImageView
+        android:id="@+id/imageView106"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="808dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.998"
+        app:srcCompat="@drawable/rectanglebg" />
 
     <ImageButton
         android:id="@+id/btnHome"
@@ -87,17 +111,6 @@
         app:srcCompat="@drawable/profileicon"
         tools:ignore="TouchTargetSizeCheck" />
 
-    <ImageButton
-        android:id="@+id/imageButton28"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="492dp"
-        android:layout_marginEnd="36dp"
-        android:background="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/checkout_buynow" />
-
     <ImageView
         android:id="@+id/imageView93"
         android:layout_width="wrap_content"
@@ -128,23 +141,12 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/co_dividers" />
 
-    <ImageButton
-        android:id="@+id/imageButton43"
-        android:layout_width="38dp"
-        android:layout_height="39dp"
-        android:layout_marginTop="88dp"
-        android:layout_marginEnd="40dp"
-        android:background="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/trash" />
-
     <TextView
         android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="84dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="80dp"
         android:fontFamily="@font/garetbold"
         android:text="Checkout"
         android:textColor="@color/black"
@@ -153,13 +155,13 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView38"
+        android:id="@+id/numberOfItems"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginTop="140dp"
-        android:layout_marginEnd="320dp"
+        android:layout_marginEnd="316dp"
         android:fontFamily="@font/garetbold"
         android:text="1 Item"
         app:layout_constraintEnd_toEndOf="parent"
@@ -172,29 +174,13 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
+        android:layout_marginStart="188dp"
         android:layout_marginTop="212dp"
-        android:layout_marginEnd="100dp"
         android:fontFamily="@font/garetbold"
-        android:text="FEAR OF GOD"
+        android:text="FEAR OF GOD\nHoodie"
         android:textColor="@color/black"
         android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="SpeakableTextPresentCheck" />
-
-    <TextView
-        android:id="@+id/textView46"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginTop="240dp"
-        android:layout_marginEnd="156dp"
-        android:fontFamily="@font/garetbold"
-        android:text="Hoodie"
-        android:textColor="@color/black"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="SpeakableTextPresentCheck" />
 
@@ -204,11 +190,11 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
+        android:layout_marginStart="189dp"
         android:layout_marginTop="272dp"
-        android:layout_marginEnd="172dp"
         android:fontFamily="@font/garet"
         android:text="Size: M"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="SpeakableTextPresentCheck" />
 
@@ -218,45 +204,13 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
+        android:layout_marginStart="189dp"
         android:layout_marginTop="296dp"
-        android:layout_marginEnd="136dp"
         android:fontFamily="@font/garet"
         android:text="Color: Black"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="SpeakableTextPresentCheck" />
-
-    <ImageView
-        android:id="@+id/imageView96"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="328dp"
-        android:layout_marginEnd="124dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/co_textinput" />
-
-    <ImageButton
-        android:id="@+id/imageButton44"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="12dp"
-        android:background="?attr/selectableItemBackground"
-        app:layout_constraintEnd_toEndOf="@+id/imageView96"
-        app:layout_constraintTop_toTopOf="@+id/imageView96"
-        app:srcCompat="@drawable/co_plus" />
-
-    <ImageButton
-        android:id="@+id/imageButton45"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="8dp"
-        android:background="?attr/selectableItemBackground"
-        app:layout_constraintStart_toStartOf="@+id/imageView96"
-        app:layout_constraintTop_toTopOf="@+id/imageView96"
-        app:srcCompat="@drawable/co_minus" />
 
     <TextView
         android:id="@+id/textView41"
@@ -265,9 +219,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginTop="400dp"
-        android:layout_marginEnd="304dp"
+        android:layout_marginEnd="288dp"
         android:fontFamily="@font/garet"
-        android:text="Subtotal"
+        android:text="Item Price"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="SpeakableTextPresentCheck" />
@@ -303,7 +257,7 @@
         tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
-        android:id="@+id/textView52"
+        android:id="@+id/subtotal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -317,7 +271,7 @@
         tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
-        android:id="@+id/textView53"
+        android:id="@+id/tax"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -331,7 +285,7 @@
         tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
-        android:id="@+id/textView55"
+        android:id="@+id/totalPrice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -339,46 +293,60 @@
         android:layout_marginTop="460dp"
         android:layout_marginEnd="36dp"
         android:fontFamily="@font/garetbold"
-        android:text="P 10.057.22"
+        android:text="P 10,057.22"
         android:textColor="@color/black"
         android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="SpeakableTextPresentCheck" />
 
-    <TextView
-        android:id="@+id/textView49"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="124dp"
-        android:fontFamily="@font/garetbold"
-        android:text="Buy Now"
-        android:textColor="@color/white"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="@+id/imageButton28"
-        app:layout_constraintTop_toTopOf="@+id/imageButton28" />
-
-    <ImageButton
-        android:id="@+id/imageButton46"
-        android:layout_width="36dp"
-        android:layout_height="32dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="28dp"
-        android:background="@color/white"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/back" />
-
     <ImageView
         android:id="@+id/imageView97"
         android:layout_width="123dp"
         android:layout_height="124dp"
-        android:layout_marginStart="52dp"
+        android:layout_marginStart="48dp"
         android:layout_marginTop="212dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/fog_jacket" />
+
+    <ImageButton
+        android:id="@+id/addItem"
+        android:layout_width="22dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="258dp"
+        android:layout_marginTop="328dp"
+        android:background="?attr/selectableItemBackground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/co_plus" />
+
+    <ImageButton
+        android:id="@+id/removeItem"
+        android:layout_width="24dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="194dp"
+        android:layout_marginTop="328dp"
+        android:background="?attr/selectableItemBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.015"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/co_minus" />
+
+    <Button
+        android:id="@+id/btnPayment"
+        android:layout_width="230dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="520dp"
+        android:background="@drawable/inputbg"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/garetbold"
+        android:text="Proceed to payment"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
