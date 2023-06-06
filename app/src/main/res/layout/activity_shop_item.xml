@@ -61,7 +61,7 @@
         android:layout_marginTop="112dp"
         android:layout_marginBottom="18dp"
         android:fontFamily="@font/garetbold"
-        android:text="P 10.057.22"
+        android:text="P 10,057.22"
         android:textColor="@color/black"
         android:textSize="15sp"
         app:layout_constraintBottom_toTopOf="@+id/btnBuyNow"
