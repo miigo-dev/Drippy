@@ -42,5 +42,6 @@
     //Outfit Suggestions
     <string name="suggestion">Outfit Suggestions</string>
     <string name="DescriptionTitle">Description</string>
+    <string name="Info">"Discover the perfect outfit for any occasion! Whether it's a casual day out, a party getup, a formal event, or outdoor activities, we've got you covered. Get personalized recommendations for men and women. Feel confident and stylish wherever you go with our curated outfit suggestions!"</string>
 
 </resources>

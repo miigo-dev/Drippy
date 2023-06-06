@@ -56,6 +56,10 @@ public class Wardrobe extends AppCompatActivity {
 
         TextView textView = findViewById(R.id.Viewall);
         textView.setPaintFlags(textView.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
+        textView.setOnClickListener(v -> {
+            Intent intent = new Intent(Wardrobe.this, Viewall.class);
+            startActivity(intent);
+        });
 
 
         imageButton = findViewById(R.id.camera);
@@ -94,8 +98,6 @@ public class Wardrobe extends AppCompatActivity {
             startActivity(intent);
         });
 
-
-
         imageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -105,6 +107,8 @@ public class Wardrobe extends AppCompatActivity {
 
             }
         });
+
+
     }
 
 

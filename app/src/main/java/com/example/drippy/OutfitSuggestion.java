@@ -30,17 +30,19 @@ public class OutfitSuggestion extends AppCompatActivity {
             startActivity(intent);
         });
 
+        imageBtn2 = findViewById(R.id.imageButton21);
+        imageBtn2.setOnClickListener(view -> {
+            Intent intent = new Intent(OutfitSuggestion.this, osCreme.class );
+            startActivity(intent);
+        });
+
         imageBtn1 = findViewById(R.id.imageButton22);
         imageBtn1.setOnClickListener(view -> {
             Intent intent = new Intent(OutfitSuggestion.this, osRecomm.class );
             startActivity(intent);
         });
 
-        imageBtn2 = findViewById(R.id.imageButton21);
-        imageBtn2.setOnClickListener(view -> {
-            Intent intent = new Intent(OutfitSuggestion.this, osCreme.class );
-            startActivity(intent);
-        });
+
 
         imageBtn3 = findViewById(R.id.imageButton23);
         imageBtn3.setOnClickListener(view -> {
