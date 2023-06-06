@@ -5,8 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
-import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -33,13 +33,14 @@ public class Signup extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
 
-
         mAuth = FirebaseAuth.getInstance();
 
         editTextUsername = findViewById(R.id.username);
         editTextEmail = findViewById(R.id.email);
         editTextPassword = findViewById(R.id.password);
         Button btnCreate = findViewById(R.id.btnCreate);
+        CheckBox cbAgree = findViewById(R.id.checkBoxAgree);
+
         btnCreate.setOnClickListener(view -> {
             String username, email, password;
             username = String.valueOf(editTextUsername.getText());
@@ -64,6 +65,11 @@ public class Signup extends AppCompatActivity {
                 errorMessage.append(getString(R.string.passLength));
             }
 
+            if (!cbAgree.isChecked()) {
+                errorMessage.append("Agree to Terms & Conditions");
+
+            }
+
             if (errorMessage.length() > 0) {
                 Toast.makeText(Signup.this, errorMessage.toString(), Toast.LENGTH_SHORT).show();
                 return;
@@ -77,7 +83,7 @@ public class Signup extends AppCompatActivity {
 
                             startActivity(new Intent(Signup.this, Homepage.class));
                         } else {
-                            Toast.makeText(Signup.this, "Error",
+                            Toast.makeText(Signup.this, "Account creation failed",
                                     Toast.LENGTH_SHORT).show();
                         }
                     });
