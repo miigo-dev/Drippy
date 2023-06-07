@@ -16,29 +16,26 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/back" />
 
+
     <ImageView
         android:id="@+id/colorPickBG_shop"
         android:layout_width="53dp"
         android:layout_height="198dp"
-        android:layout_marginStart="356dp"
-        android:layout_marginTop="78dp"
+        android:layout_marginStart="358dp"
+        android:layout_marginTop="142dp"
         android:src="@drawable/colorpickbg_shop"
-        app:layout_constraintBottom_toTopOf="@+id/sizePickBG_shop"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView91" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/sizePickBG_shop"
         android:layout_width="53dp"
         android:layout_height="154dp"
-        android:layout_marginStart="356dp"
+        android:layout_marginStart="358dp"
         android:layout_marginTop="340dp"
-        android:layout_marginBottom="74dp"
         android:src="@drawable/sizepickbg_shop"
-        app:layout_constraintBottom_toTopOf="@+id/itemDescription_shop"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 
     <ImageView
         android:id="@+id/imageView86"
@@ -155,10 +152,10 @@
         android:layout_marginEnd="15dp"
         app:layout_constraintBottom_toTopOf="@+id/itemDescriptionTitle_shop"
         app:layout_constraintEnd_toStartOf="@+id/colorPickBG_shop"
-        app:layout_constraintHorizontal_bias="0.814"
+        app:layout_constraintHorizontal_bias="0.972"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.578"
+        app:layout_constraintVertical_bias="0.78"
         app:srcCompat="@drawable/fog_jacket" />
 
     <ImageView
@@ -170,5 +167,35 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/shoppingbag" />
+
+    <ImageView
+        android:id="@+id/imageView124"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="365dp"
+        android:layout_marginTop="180dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/brown_circle" />
+
+    <ImageView
+        android:id="@+id/imageView125"
+        android:layout_width="41dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="365dp"
+        android:layout_marginTop="222dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/blue_circle" />
+
+    <ImageView
+        android:id="@+id/imageView126"
+        android:layout_width="41dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="365dp"
+        android:layout_marginTop="265dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/black_circle" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
