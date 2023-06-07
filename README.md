@@ -3,6 +3,4 @@
 In partial fulfillment of the requirements in the subjects: Technopreneurship & Integrative Programming.
 
 ---
-Drippy, a mobile fashion app designed to empower users in their fashion choices.
-
-Drippy stands out from existing fashion apps by offering personalized outfit suggestions, outfit planning, and centralized fashion e-commerce, all in one convenient platform. Leveraging cutting-edge technology, Drippy analyzes users' unique preferences and provides tailored recommendations that match their individual style. Our app also features an intuitive outfit organization feature, allowing users to effortlessly plan and coordinate their outfits for any occasion.
+Drippy is a personalized fashion app that helps users enhance their style and simplify their daily routines. By leveraging cutting-edge technology, Drippy offers outfit suggestions tailored to users' unique preferences, while also streamlining their wardrobes with an easy-to-use outfit organization feature. Additionally, Drippy fosters community engagement by collaborating with fashion startups and promoting their items on the platform.
